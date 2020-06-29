@@ -6,14 +6,22 @@ The heart is a metabolic omnivore, known to consume many different carbon substr
 
 ### Overview
 
+Analyses were run with MATLAB and the COBRA toolbox v3 (accessed 2019-02-18). 
+
 	project
 	|- README             # the top level description of content
   	|
   	|- code/              # code used for the presented analysis
  	| |- MATLAB/          # code for reproducing building draft iCardio models, model curation, and TIDEs analysis	
 	| | |- functions/     # functions necessary for reproducing results
+	| | |- data/          # necessary models, metabolic tasks, and final results
  	| |- R/               # code for microarray DEG analysis
  	|
  	|- results/           # code to reproduce figures and supplementary tables
  	| |- figures/
 	| |- tables/
+
+
+### Re-running the TIDEs pipeline for your own data
+
+To run the TIDEs pipeline, you must first run the generateMinRxnList() function to generate a MATLAB structure that contains an entry for each metabolic task, including the reactions necessary for that task. For the analysis presented in the paper, reactions without GPRs were removed (removeNoGPR = 'true'). Next, run the calculateTIDEscores() function with the model, minRxnList, and data for your study. The function will return a structure with a task score for each task in the minRxnList structure with the calculated significance for the task compared to randomly shuffled data. 
