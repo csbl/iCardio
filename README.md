@@ -9,7 +9,7 @@ The heart is a metabolic omnivore, known to consume many different carbon substr
 Analyses were run with MATLAB and the COBRA toolbox v3 (accessed 2019-02-18). 
 
 	project
-	|- README             # the top level description of content
+	|- README             
   	|
   	|- code/              # code used for the presented analysis
  	| |- MATLAB/          # code for reproducing building draft iCardio models, model curation, and TIDEs analysis	
