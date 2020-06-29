@@ -7,7 +7,7 @@ The heart is a metabolic omnivore, known to consume many different carbon substr
 ### Overview
 
 	project
-	|- README          		# the top level description of content
+	|- README             # the top level description of content
   	|
   	|- code/              # code used for the presented analysis
  	| |- MATLAB/          # code for reproducing building draft iCardio models, model curation, and TIDEs analysis	
