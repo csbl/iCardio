@@ -12,9 +12,10 @@ Analyses were run with MATLAB and the COBRA toolbox v3 (accessed 2019-02-18).
 	|- README             
   	|
   	|- code/              # code used for the presented analysis
- 	| |- MATLAB/          # code for reproducing building draft iCardio models, model curation, and TIDEs analysis	
-	| | |- functions/     # functions necessary for reproducing results
+ 	| |- MATLAB/          	
 	| | |- data/          # necessary models, metabolic tasks, and final results
+	| | |- functions/     # functions necessary for reproducing results
+	| | |- scripts/       # code for reproducing building draft iCardio models, model curation, and TIDEs analysis
  	| |- R/               # code for microarray DEG analysis
  	|
  	|- results/           # code to reproduce figures and supplementary tables
