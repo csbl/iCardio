@@ -1,0 +1,2317 @@
+"GENE.NAME","Gene.name","Level","Reliability","conservative","liberal"
+"10","NAT2","Low","Uncertain",-1,0
+"100","ADA","Not detected","Enhanced",-1,-1
+"10005","ACOT8","Medium","Approved",1,1
+"10007","GNPDA1","Medium","Uncertain",1,1
+"100129518","LOC100129518",NA,NA,-1,-1
+"100137049","PLA2G4B",NA,NA,-1,-1
+"10020","GNE","Medium","Approved",1,1
+"10026","PIGK",NA,NA,-1,-1
+"100302263","MIR1908",NA,NA,-1,-1
+"10038","PARP2","Not detected","Approved",-1,-1
+"10039","PARP3","High","Supported",2,2
+"10050","SLC17A4","Low","Approved",-1,0
+"100507855","LOC100507855",NA,NA,-1,-1
+"100509620","LOC100509620",NA,NA,-1,-1
+"100526760","ABHD14A-ACY1","Not detected","Approved",-1,-1
+"100526794","NT5C1B-RDH14",NA,NA,-1,-1
+"100526830","SLX1A-SULT1A3",NA,NA,-1,-1
+"100526832","PHOSPHO2-KLHL23",NA,NA,-1,-1
+"100526835","FPGT-TNNI3K",NA,NA,-1,-1
+"100529261","CHURC1-FNTB",NA,NA,-1,-1
+"10056","FARSB","Medium","Enhanced",1,1
+"10057","ABCC5","Medium","Uncertain",1,1
+"10058","ABCB6","Medium","Approved",1,1
+"100861540","CYP3A7-CYP3AP1",NA,NA,-1,-1
+"10087","COL4A3BP","Not detected","Uncertain",-1,-1
+"10090","UST","Medium","Approved",1,1
+"100996643","LOC100996643",NA,NA,-1,-1
+"100996939","PYURF","Medium","Uncertain",1,1
+"101060521","LOC101060521",NA,NA,-1,-1
+"10130","PDIA6","Low","Enhanced",-1,0
+"10134","BCAP31","Not detected","Enhanced",-1,-1
+"10135","NAMPT","Not detected","Approved",-1,-1
+"10157","AASS","Medium","Enhanced",1,1
+"10162","LPCAT3",NA,NA,-1,-1
+"10164","CHST4","Not detected","Enhanced",-1,-1
+"10165","SLC25A13","Medium","Approved",1,1
+"10166","SLC25A15","Medium","Approved",1,1
+"10170","DHRS9","Medium","Approved",1,1
+"10171","RCL1",NA,NA,-1,-1
+"101927705","LOC101927705",NA,NA,-1,-1
+"101928195","LOC101928195",NA,NA,-1,-1
+"101928635","LOC101928635",NA,NA,-1,-1
+"101929583","LOC101929583",NA,NA,-1,-1
+"101929829","LOC101929829",NA,NA,-1,-1
+"101929857","LOC101929857",NA,NA,-1,-1
+"101929880","LOC101929880",NA,NA,-1,-1
+"101930168","LOC101930168",NA,NA,-1,-1
+"10195","ALG3","Not detected","Approved",-1,-1
+"10201","NME6","Low","Approved",-1,0
+"102157402","AK6","Low","Supported",-1,0
+"10226","PLIN3","Low","Uncertain",-1,0
+"10229","COQ7","Medium","Approved",1,1
+"10243","GPHN","Not detected","Enhanced",-1,-1
+"10246","SLC17A2",NA,NA,-1,-1
+"10249","GLYAT","Not detected","Enhanced",-1,-1
+"10257","ABCC4","Not detected","Enhanced",-1,-1
+"10269","ZMPSTE24","Medium","Approved",1,1
+"10295","BCKDK","Not detected","Supported",-1,-1
+"10312","TCIRG1","Medium","Approved",1,1
+"10317","B3GALT5","Not detected","Approved",-1,-1
+"10321","CRISP3","Not detected","Supported",-1,-1
+"10327","AKR1A1","Not detected","Approved",-1,-1
+"10331","B3GNT3","Not detected","Enhanced",-1,-1
+"10352","WARS2","Medium","Enhanced",1,1
+"1036","CDO1","Not detected","Enhanced",-1,-1
+"10380","BPNT1","Medium","Approved",1,1
+"10390","CEPT1",NA,NA,-1,-1
+"1040","CDS1","Medium","Enhanced",1,1
+"10400","PEMT","Medium","Approved",1,1
+"10402","ST3GAL6","Medium","Approved",1,1
+"10423","CDIPT","Medium","Approved",1,1
+"10434","LYPLA1","Low","Enhanced",-1,0
+"10449","ACAA2","Medium","Enhanced",1,1
+"10455","ECI2","Medium","Enhanced",1,1
+"10476","ATP5H","High","Enhanced",2,2
+"10478","SLC25A17","Medium","Approved",1,1
+"10514","MYBBP1A","Not detected","Supported",-1,-1
+"10554","AGPAT1","Medium","Approved",1,1
+"10555","AGPAT2","Medium","Uncertain",1,1
+"10558","SPTLC1","Low","Supported",-1,0
+"10559","SLC35A1",NA,NA,-1,-1
+"1056","CEL","Not detected","Enhanced",-1,-1
+"10560","SLC19A2","Medium","Uncertain",1,1
+"10568","SLC34A2","Not detected","Enhanced",-1,-1
+"10585","POMT1",NA,NA,-1,-1
+"10587","TXNRD2","Not detected","Supported",-1,-1
+"10588","MTHFS","Low","Approved",-1,0
+"10599","SLCO1B1","Not detected","Supported",-1,-1
+"10606","PAICS","Low","Uncertain",-1,0
+"10610","ST6GALNAC2",NA,NA,-1,-1
+"10621","POLR3F","Medium","Uncertain",1,1
+"10622","POLR3G","Not detected","Enhanced",-1,-1
+"10623","POLR3C","Low","Uncertain",-1,0
+"10632","ATP5L","High","Approved",2,2
+"10637","LEFTY1","Not detected","Approved",-1,-1
+"10654","PMVK","Medium","Approved",1,1
+"1066","CES1","Not detected","Enhanced",-1,-1
+"10667","FARS2","Medium","Approved",1,1
+"10678","B3GNT2","Low","Approved",-1,0
+"10682","EBP","Not detected","Approved",-1,-1
+"10690","FUT9",NA,NA,-1,-1
+"107","ADCY1",NA,NA,-1,-1
+"10714","POLD3","Low","Enhanced",-1,0
+"10715","CERS1","Not detected","Approved",-1,-1
+"10721","POLQ",NA,NA,-1,-1
+"10723","SLC12A7","Low","Approved",-1,0
+"10728","PTGES3","Not detected","Enhanced",-1,-1
+"10768","AHCYL1","Not detected","Approved",-1,-1
+"10786","SLC17A3",NA,NA,-1,-1
+"10797","MTHFD2","Not detected","Approved",-1,-1
+"108","ADCY2","Not detected","Approved",-1,-1
+"10809","STARD10","High","Uncertain",2,2
+"10826","FAXDC2",NA,NA,-1,-1
+"10840","ALDH1L1","Low","Enhanced",-1,0
+"10841","FTCD","Not detected","Enhanced",-1,-1
+"10855","HPSE",NA,NA,-1,-1
+"10858","CYP46A1",NA,NA,-1,-1
+"10861","SLC26A1","Not detected","Uncertain",-1,-1
+"10864","SLC22A7","Not detected","Approved",-1,-1
+"10873","ME3","Medium","Approved",1,1
+"109","ADCY3","Medium","Approved",1,1
+"10901","DHRS4","Not detected","Uncertain",-1,-1
+"10905","MAN1A2","Medium","Enhanced",1,1
+"10908","PNPLA6","High","Uncertain",2,2
+"10914","PAPOLA","Medium","Supported",1,1
+"10948","STARD3","High","Uncertain",2,2
+"10954","PDIA5","Not detected","Enhanced",-1,-1
+"10965","ACOT2","Medium","Enhanced",1,1
+"10991","SLC38A3",NA,NA,-1,-1
+"10993","SDS","Medium","Uncertain",1,1
+"10998","SLC27A5","Not detected","Enhanced",-1,-1
+"10999","SLC27A4","Low","Approved",-1,0
+"11000","SLC27A3","Medium","Uncertain",1,1
+"11001","SLC27A2","Not detected","Enhanced",-1,-1
+"11019","LIAS","Low","Approved",-1,0
+"1103","CHAT","Not detected","Supported",-1,-1
+"11041","B3GNT1",NA,NA,-1,-1
+"11044","PAPD7","High","Enhanced",2,2
+"11046","SLC35D2","Medium","Approved",1,1
+"1109","AKR1C4","Medium","Uncertain",1,1
+"111","ADCY5",NA,NA,-1,-1
+"11101","ATE1","Medium","Approved",1,1
+"11102","RPP14",NA,NA,-1,-1
+"11112","HIBADH","High","Enhanced",2,2
+"11128","POLR3A",NA,NA,-1,-1
+"11136","SLC7A9","Not detected","Enhanced",-1,-1
+"11145","PLA2G16",NA,NA,-1,-1
+"1116","CHI3L1",NA,NA,-1,-1
+"11163","NUDT4","High","Approved",2,2
+"11164","NUDT5","Not detected","Approved",-1,-1
+"11165","NUDT3","Not detected","Uncertain",-1,-1
+"1118","CHIT1","Low","Approved",-1,0
+"11181","TREH","Not detected","Enhanced",-1,-1
+"11182","SLC2A6","Not detected","Uncertain",-1,-1
+"11185","INMT",NA,NA,-1,-1
+"1119","CHKA","Medium","Approved",1,1
+"112","ADCY6","Medium","Approved",1,1
+"1120","CHKB","Medium","Approved",1,1
+"11201","POLI","Low","Enhanced",-1,0
+"11212","PROSC","Medium","Approved",1,1
+"11219","TREX2","Low","Uncertain",-1,0
+"11232","POLG2","Not detected","Approved",-1,-1
+"11238","CA5B","Not detected","Uncertain",-1,-1
+"11240","PADI2","Not detected","Enhanced",-1,-1
+"112476","PRRT2","Not detected","Enhanced",-1,-1
+"112483","SAT2","Not detected","Enhanced",-1,-1
+"11253","MAN1B1","Low","Approved",-1,0
+"11254","SLC6A14","Not detected","Uncertain",-1,-1
+"112611","RWDD2A","Medium","Uncertain",1,1
+"11277","TREX1","Medium","Supported",1,1
+"112817","HOGA1","Medium","Approved",1,1
+"11282","MGAT4B","Low","Uncertain",-1,0
+"11283","CYP4F8","Not detected","Approved",-1,-1
+"11284","PNKP","Low","Supported",-1,0
+"11285","B4GALT7","High","Supported",2,2
+"113","ADCY7","Medium","Uncertain",1,1
+"113026","PLCD3","Medium","Approved",1,1
+"11309","SLCO2B1","Medium","Uncertain",1,1
+"11316","COPE","Not detected","Supported",-1,-1
+"113189","CHST14","Not detected","Approved",-1,-1
+"11320","MGAT4A","Low","Enhanced",-1,0
+"113235","SLC46A1","Low","Approved",-1,0
+"11332","ACOT7","Low","Enhanced",-1,0
+"11343","MGLL","Not detected","Enhanced",-1,-1
+"113451","AZIN2",NA,NA,-1,-1
+"113452","TMEM54",NA,NA,-1,-1
+"113612","CYP2U1","Medium","Uncertain",1,1
+"113675","SDSL","High","Approved",2,2
+"114","ADCY8","Medium","Supported",1,1
+"114112","TXNRD3","Not detected","Uncertain",-1,-1
+"114134","SLC2A13","Medium","Approved",1,1
+"114571","SLC22A9",NA,NA,-1,-1
+"114770","PGLYRP2","Medium","Approved",1,1
+"114771","PGLYRP3",NA,NA,-1,-1
+"1149","CIDEA",NA,NA,-1,-1
+"115","ADCY9","Not detected","Approved",-1,-1
+"115019","SLC26A9","Not detected","Enhanced",-1,-1
+"115024","NT5C3B","Medium","Approved",1,1
+"115111","SLC26A7",NA,NA,-1,-1
+"1152","CKB","Low","Enhanced",-1,0
+"115286","SLC25A26","Medium","Enhanced",1,1
+"1155","TBCB","Low","Approved",-1,0
+"115584","SLC5A11",NA,NA,-1,-1
+"1158","CKM","High","Enhanced",2,2
+"1159","CKMT1B","Not detected","Uncertain",-1,-1
+"1160","CKMT2","High","Enhanced",2,2
+"116085","SLC22A12","Not detected","Enhanced",-1,-1
+"116179","TGM7",NA,NA,-1,-1
+"116255","MOGAT1",NA,NA,-1,-1
+"116285","ACSM1",NA,NA,-1,-1
+"116369","SLC26A8","Not detected","Enhanced",-1,-1
+"116519","APOA5",NA,NA,-1,-1
+"116969","ART5",NA,NA,-1,-1
+"117247","SLC16A10","High","Approved",2,2
+"117283","IP6K3","Medium","Approved",1,1
+"119391","GSTO2","Not detected","Approved",-1,-1
+"119548","PNLIPRP3",NA,NA,-1,-1
+"1200","TPP1","High","Enhanced",2,2
+"120103","SLC36A4","Medium","Enhanced",1,1
+"120227","CYP2R1","High","Approved",2,2
+"1208","CLPS","Not detected","Enhanced",-1,-1
+"121278","TPH2","Not detected","Enhanced",-1,-1
+"1215","CMA1","Not detected","Enhanced",-1,-1
+"122481","AK7","Not detected","Enhanced",-1,-1
+"122618","PLD4","Low","Approved",-1,0
+"122622","ADSSL1",NA,NA,-1,-1
+"122830","NAA30",NA,NA,-1,-1
+"122970","ACOT4","Not detected","Enhanced",-1,-1
+"123","PLIN2","Not detected","Supported",-1,-1
+"123041","SLC24A4",NA,NA,-1,-1
+"123096","SLC25A29",NA,NA,-1,-1
+"123099","DEGS2",NA,NA,-1,-1
+"123263","MTFMT","Medium","Uncertain",1,1
+"123264","SLC51B","Not detected","Enhanced",-1,-1
+"123283","TARSL2","Medium","Approved",1,1
+"123688","HYKK","Medium","Approved",1,1
+"123745","PLA2G4E","Not detected","Enhanced",-1,-1
+"123803","NTAN1",NA,NA,-1,-1
+"123876","ACSM2A","Not detected","Supported",-1,-1
+"124","ADH1A","Not detected","Enhanced",-1,-1
+"1244","ABCC2","Not detected","Enhanced",-1,-1
+"124454","EARS2","High","Approved",2,2
+"124583","CANT1","Medium","Enhanced",1,1
+"124637","CYB5D1","Medium","Uncertain",1,1
+"124935","SLC43A2","Not detected","Enhanced",-1,-1
+"124975","GGT6","Medium","Approved",1,1
+"125","ADH1B","Low","Supported",-1,0
+"125061","AFMID","Not detected","Uncertain",-1,-1
+"125206","SLC5A10",NA,NA,-1,-1
+"125965","COX6B2",NA,NA,-1,-1
+"125981","ACER1",NA,NA,-1,-1
+"126","ADH1C","Low","Supported",-1,0
+"126129","CPT1C","Not detected","Approved",-1,-1
+"126410","CYP4F22",NA,NA,-1,-1
+"1267","CNP","Not detected","Enhanced",-1,-1
+"126792","B3GALT6",NA,NA,-1,-1
+"126969","SLC44A3","Low","Enhanced",-1,0
+"127","ADH4","Not detected","Enhanced",-1,-1
+"127124","ATP6V1G3","Not detected","Enhanced",-1,-1
+"128","ADH5","Medium","Approved",1,1
+"128486","FITM2",NA,NA,-1,-1
+"128869","PIGU","Not detected","Uncertain",-1,-1
+"129607","CMPK2","Low","Approved",-1,0
+"129642","MBOAT2","Medium","Uncertain",1,1
+"13","AADAC","Not detected","Approved",-1,-1
+"130","ADH6","Not detected","Enhanced",-1,-1
+"130013","ACMSD","Not detected","Enhanced",-1,-1
+"130367","SGPP2",NA,NA,-1,-1
+"130589","GALM","Not detected","Enhanced",-1,-1
+"130752","MDH1B","Not detected","Approved",-1,-1
+"131","ADH7","Not detected","Enhanced",-1,-1
+"1312","COMT","Not detected","Enhanced",-1,-1
+"1314","COPA","High","Supported",2,2
+"1315","COPB1","Medium","Supported",1,1
+"131669","UROC1","Not detected","Enhanced",-1,-1
+"1317","SLC31A1","Medium","Approved",1,1
+"131890","GRK7",NA,NA,-1,-1
+"132","ADK","Low","Approved",-1,0
+"132158","GLYCTK","High","Approved",2,2
+"1327","COX4I1","High","Supported",2,2
+"132789","GNPDA2","Medium","Uncertain",1,1
+"1329","COX5B","High","Supported",2,2
+"133121","ENPP6","Not detected","Approved",-1,-1
+"133686","NADK2","Low","Enhanced",-1,0
+"1337","COX6A1","Medium","Approved",1,1
+"1339","COX6A2",NA,NA,-1,-1
+"1340","COX6B1","High","Enhanced",2,2
+"134429","STARD4","High","Approved",2,2
+"1345","COX6C","High","Enhanced",2,2
+"134526","ACOT12",NA,NA,-1,-1
+"135152","B3GAT2",NA,NA,-1,-1
+"1352","COX10","Medium","Supported",1,1
+"1356","CP","Not detected","Supported",-1,-1
+"1357","CPA1","Not detected","Enhanced",-1,-1
+"1358","CPA2","Not detected","Enhanced",-1,-1
+"1359","CPA3","Not detected","Enhanced",-1,-1
+"1371","CPOX",NA,NA,-1,-1
+"1373","CPS1","Not detected","Enhanced",-1,-1
+"137362","GOT1L1",NA,NA,-1,-1
+"1374","CPT1A","Medium","Enhanced",1,1
+"1375","CPT1B","High","Approved",2,2
+"1376","CPT2","Medium","Enhanced",1,1
+"137872","ADHFE1","Not detected","Enhanced",-1,-1
+"137902","PXDNL",NA,NA,-1,-1
+"137964","AGPAT6",NA,NA,-1,-1
+"138050","HGSNAT","High","Approved",2,2
+"1384","CRAT","Medium","Enhanced",1,1
+"138428","PTRH1","Medium","Uncertain",1,1
+"138429","PIP5KL1",NA,NA,-1,-1
+"138639","PTPDC1","Medium","Uncertain",1,1
+"139189","DGKK",NA,NA,-1,-1
+"139596","UPRT",NA,NA,-1,-1
+"139728","PNCK","Medium","Approved",1,1
+"140679","SLC32A1","Not detected","Enhanced",-1,-1
+"140733","MACROD2","Medium","Enhanced",1,1
+"140838","NANP",NA,NA,-1,-1
+"141","ADPRH","Not detected","Approved",-1,-1
+"142","PARP1","Medium","Supported",1,1
+"142680","SLC34A3","Not detected","Enhanced",-1,-1
+"142689","ASB12",NA,NA,-1,-1
+"1429","CRYZ","Medium","Approved",1,1
+"143","PARP4","Medium","Approved",1,1
+"1431","CS","High","Enhanced",2,2
+"144193","AMDHD1","Not detected","Uncertain",-1,-1
+"144195","SLC2A14","Not detected","Supported",-1,-1
+"144245","ALG10B","Medium","Approved",1,1
+"145226","RDH12",NA,NA,-1,-1
+"1455","CSNK1G2","Low","Uncertain",-1,0
+"145553","MDP1","Not detected","Uncertain",-1,-1
+"146712","B3GNTL1","Medium","Supported",1,1
+"1468","SLC25A10","Medium","Supported",1,1
+"146802","SLC47A2",NA,NA,-1,-1
+"147323","STARD6",NA,NA,-1,-1
+"148867","SLC30A7","Medium","Uncertain",1,1
+"1490","CTGF","Not detected","Approved",-1,-1
+"1491","CTH","Not detected","Enhanced",-1,-1
+"15","AANAT",NA,NA,-1,-1
+"1503","CTPS1","Low","Enhanced",-1,0
+"150465","TTL",NA,NA,-1,-1
+"150763","GPAT2","Medium","Uncertain",1,1
+"151056","PLB1",NA,NA,-1,-1
+"151230","KLHL23",NA,NA,-1,-1
+"151531","UPP2",NA,NA,-1,-1
+"151742","PPM1L","High","Approved",2,2
+"153201","SLC36A2","Not detected","Enhanced",-1,-1
+"1537","CYC1","High","Supported",2,2
+"154091","SLC2A12","Not detected","Approved",-1,-1
+"154141","MBOAT1",NA,NA,-1,-1
+"1543","CYP1A1","Low","Uncertain",-1,0
+"1544","CYP1A2","Not detected","Enhanced",-1,-1
+"1545","CYP1B1","Medium","Approved",1,1
+"1548","CYP2A6","Not detected","Supported",-1,-1
+"1549","CYP2A7","Not detected","Enhanced",-1,-1
+"155066","ATP6V0E2",NA,NA,-1,-1
+"1551","CYP3A7",NA,NA,-1,-1
+"155184","SLC2A7",NA,NA,-1,-1
+"1553","CYP2A13","Not detected","Supported",-1,-1
+"1555","CYP2B6","Low","Supported",-1,0
+"1557","CYP2C19","Not detected","Supported",-1,-1
+"1558","CYP2C8","Not detected","Enhanced",-1,-1
+"1559","CYP2C9","Not detected","Enhanced",-1,-1
+"156","ADRBK1",NA,NA,-1,-1
+"1562","CYP2C18",NA,NA,-1,-1
+"1565","CYP2D6","Not detected","Enhanced",-1,-1
+"157","ADRBK2",NA,NA,-1,-1
+"1571","CYP2E1","Not detected","Enhanced",-1,-1
+"1572","CYP2F1",NA,NA,-1,-1
+"1573","CYP2J2",NA,NA,-1,-1
+"157506","RDH10",NA,NA,-1,-1
+"1576","CYP3A4","Not detected","Enhanced",-1,-1
+"1577","CYP3A5",NA,NA,-1,-1
+"1579","CYP4A11",NA,NA,-1,-1
+"158","ADSL","Medium","Enhanced",1,1
+"1580","CYP4B1","Not detected","Approved",-1,-1
+"158067","AK8","Low","Enhanced",-1,0
+"1581","CYP7A1",NA,NA,-1,-1
+"1582","CYP8B1",NA,NA,-1,-1
+"1583","CYP11A1","Not detected","Enhanced",-1,-1
+"1584","CYP11B1","Not detected","Supported",-1,-1
+"1585","CYP11B2","Not detected","Supported",-1,-1
+"1586","CYP17A1","Not detected","Enhanced",-1,-1
+"1588","CYP19A1","Not detected","Enhanced",-1,-1
+"158833","AWAT1","Not detected","Supported",-1,-1
+"158835","AWAT2","Not detected","Approved",-1,-1
+"1589","CYP21A2","Not detected","Enhanced",-1,-1
+"159","ADSS","Not detected","Enhanced",-1,-1
+"1591","CYP24A1","Not detected","Enhanced",-1,-1
+"1592","CYP26A1",NA,NA,-1,-1
+"1593","CYP27A1","Medium","Enhanced",1,1
+"1594","CYP27B1",NA,NA,-1,-1
+"1595","CYP51A1","Not detected","Enhanced",-1,-1
+"159963","SLC5A12","Not detected","Enhanced",-1,-1
+"16","AARS","Low","Supported",-1,0
+"160287","LDHAL6A",NA,NA,-1,-1
+"1603","DAD1","Medium","Uncertain",1,1
+"160428","ALDH1L2",NA,NA,-1,-1
+"1606","DGKA","Low","Approved",-1,0
+"1607","DGKB",NA,NA,-1,-1
+"160728","SLC5A8",NA,NA,-1,-1
+"1608","DGKG","Low","Approved",-1,0
+"160851","DGKH","High","Uncertain",2,2
+"1609","DGKQ","Medium","Uncertain",1,1
+"1610","DAO","Not detected","Enhanced",-1,-1
+"161247","FITM1","High","Uncertain",2,2
+"1615","DARS","Not detected","Enhanced",-1,-1
+"1621","DBH","Not detected","Enhanced",-1,-1
+"1622","DBI","Medium","Approved",1,1
+"162417","NAGS",NA,NA,-1,-1
+"162466","PHOSPHO1",NA,NA,-1,-1
+"1628","DBP",NA,NA,-1,-1
+"1629","DBT","Medium","Enhanced",1,1
+"1632","ECI1","High","Enhanced",2,2
+"1633","DCK","Not detected","Approved",-1,-1
+"163404","LPPR5",NA,NA,-1,-1
+"1635","DCTD","Medium","Approved",1,1
+"1636","ACE","Not detected","Enhanced",-1,-1
+"1638","DCT","Not detected","Enhanced",-1,-1
+"1644","DDC","Not detected","Enhanced",-1,-1
+"1645","AKR1C1","Low","Uncertain",-1,0
+"1650","DDOST","Low","Supported",-1,0
+"165631","PARP15",NA,NA,-1,-1
+"166012","CHST13",NA,NA,-1,-1
+"1666","DECR1","High","Enhanced",2,2
+"166785","MMAA","Medium","Approved",1,1
+"166929","SGMS2","Medium","Enhanced",1,1
+"167153","PAPD4",NA,NA,-1,-1
+"169355","IDO2",NA,NA,-1,-1
+"170685","NUDT10","Low","Approved",-1,0
+"171425","CLYBL","High","Enhanced",2,2
+"171568","POLR3H","Medium","Approved",1,1
+"1716","DGUOK","Low","Approved",-1,0
+"1717","DHCR7","Low","Approved",-1,0
+"1718","DHCR24","Not detected","Approved",-1,-1
+"1719","DHFR","Medium","Uncertain",1,1
+"1723","DHODH","Medium","Approved",1,1
+"1725","DHPS","Low","Approved",-1,0
+"1727","CYB5R3","Medium","Approved",1,1
+"1728","NQO1","Not detected","Enhanced",-1,-1
+"1733","DIO1",NA,NA,-1,-1
+"1734","DIO2",NA,NA,-1,-1
+"1735","DIO3",NA,NA,-1,-1
+"1737","DLAT","Medium","Enhanced",1,1
+"1738","DLD","High","Enhanced",2,2
+"1743","DLST","Medium","Supported",1,1
+"1748","DLX4",NA,NA,-1,-1
+"175","AGA","Medium","Enhanced",1,1
+"1757","SARDH","Medium","Approved",1,1
+"178","AGL","High","Approved",2,2
+"1786","DNMT1","Not detected","Enhanced",-1,-1
+"1787","TRDMT1","High","Approved",2,2
+"1788","DNMT3A","Medium","Approved",1,1
+"1789","DNMT3B","Not detected","Enhanced",-1,-1
+"1798","DPAGT1","High","Approved",2,2
+"18","ABAT","Not detected","Enhanced",-1,-1
+"1800","DPEP1","Not detected","Enhanced",-1,-1
+"1806","DPYD","Not detected","Uncertain",-1,-1
+"1807","DPYS","Not detected","Enhanced",-1,-1
+"1808","DPYSL2","Not detected","Supported",-1,-1
+"1809","DPYSL3","Not detected","Approved",-1,-1
+"1811","SLC26A3","Not detected","Approved",-1,-1
+"183","AGT","Not detected","Supported",-1,-1
+"1836","SLC26A2","Not detected","Enhanced",-1,-1
+"1841","DTYMK","Medium","Approved",1,1
+"1852","DUSP9","Not detected","Enhanced",-1,-1
+"1854","DUT","Low","Enhanced",-1,0
+"189","AGXT","Not detected","Enhanced",-1,-1
+"1890","TYMP","Not detected","Enhanced",-1,-1
+"1891","ECH1","High","Supported",2,2
+"1892","ECHS1","High","Enhanced",2,2
+"19","ABCA1","Medium","Approved",1,1
+"191","AHCY","Low","Approved",-1,0
+"192134","B3GNT6","Not detected","Enhanced",-1,-1
+"192286","HIGD2A","High","Uncertain",2,2
+"1951","CELSR3","Not detected","Approved",-1,-1
+"195814","SDR16C5","Not detected","Enhanced",-1,-1
+"196051","PPAPDC1A",NA,NA,-1,-1
+"1962","EHHADH","Not detected","Enhanced",-1,-1
+"196743","PAOX",NA,NA,-1,-1
+"196883","ADCY4","Not detected","Approved",-1,-1
+"196951","FAM227B","Medium","Uncertain",1,1
+"197257","LDHD","High","Enhanced",2,2
+"197258","FUK","Low","Approved",-1,0
+"1977","EIF4E","Low","Supported",-1,0
+"199857","ALG14","Not detected","Approved",-1,-1
+"199974","CYP4Z1",NA,NA,-1,-1
+"200010","SLC5A9",NA,NA,-1,-1
+"200576","PIKFYVE",NA,NA,-1,-1
+"200895","DHFRL1",NA,NA,-1,-1
+"200931","SLC51A","Not detected","Enhanced",-1,-1
+"201164","PLD6","Low","Approved",-1,0
+"201232","SLC16A13",NA,NA,-1,-1
+"201562","PTPLB",NA,NA,-1,-1
+"2023","ENO1","Low","Enhanced",-1,0
+"2026","ENO2","Not detected","Enhanced",-1,-1
+"2027","ENO3","Low","Enhanced",-1,0
+"203","AK1","Low","Enhanced",-1,0
+"2030","SLC29A1","Medium","Approved",1,1
+"204","AK2","Medium","Approved",1,1
+"204219","CERS3","Low","Approved",-1,0
+"204962","SLC44A5","Not detected","Uncertain",-1,-1
+"205","AK4","Medium","Enhanced",1,1
+"2052","EPHX1","Not detected","Enhanced",-1,-1
+"2053","EPHX2","Low","Approved",-1,0
+"2058","EPRS","Not detected","Enhanced",-1,-1
+"206358","SLC36A1","Medium","Approved",1,1
+"2098","ESD","Medium","Approved",1,1
+"210","ALAD","Not detected","Enhanced",-1,-1
+"2108","ETFA","High","Enhanced",2,2
+"2109","ETFB","High","Supported",2,2
+"211","ALAS1","Medium","Enhanced",1,1
+"2110","ETFDH","High","Enhanced",2,2
+"212","ALAS2","Not detected","Approved",-1,-1
+"213","ALB","Not detected","Supported",-1,-1
+"2131","EXT1","Medium","Uncertain",1,1
+"2132","EXT2",NA,NA,-1,-1
+"2135","EXTL2","Medium","Approved",1,1
+"2137","EXTL3","Medium","Approved",1,1
+"215","ABCD1",NA,NA,-1,-1
+"216","ALDH1A1","Not detected","Approved",-1,-1
+"2162","F13A1","Not detected","Enhanced",-1,-1
+"2165","F13B","Not detected","Supported",-1,-1
+"2166","FAAH","Medium","Approved",1,1
+"2167","FABP4","Not detected","Enhanced",-1,-1
+"2168","FABP1","Not detected","Enhanced",-1,-1
+"2169","FABP2","Not detected","Enhanced",-1,-1
+"217","ALDH2","Not detected","Approved",-1,-1
+"2170","FABP3","Medium","Enhanced",1,1
+"2171","FABP5","Not detected","Enhanced",-1,-1
+"2172","FABP6","Not detected","Enhanced",-1,-1
+"2173","FABP7","Not detected","Enhanced",-1,-1
+"218","ALDH3A1","Not detected","Enhanced",-1,-1
+"2180","ACSL1","High","Enhanced",2,2
+"2181","ACSL3","Medium","Uncertain",1,1
+"2182","ACSL4","Low","Enhanced",-1,0
+"2184","FAH","Not detected","Enhanced",-1,-1
+"219","ALDH1B1","High","Approved",2,2
+"2193","FARSA","High","Approved",2,2
+"2194","FASN","Not detected","Enhanced",-1,-1
+"219970","GLYATL2","Medium","Uncertain",1,1
+"220","ALDH1A3","Not detected","Enhanced",-1,-1
+"220074","LRTOMT","Medium","Approved",1,1
+"2203","FBP1","Not detected","Enhanced",-1,-1
+"220963","SLC16A9","Low","Approved",-1,0
+"221","ALDH3B1","Medium","Uncertain",1,1
+"221223","CES5A",NA,NA,-1,-1
+"221264","AK9","High","Enhanced",2,2
+"221357","GSTA5",NA,NA,-1,-1
+"221443","OARD1","Not detected","Approved",-1,-1
+"221823","PRPS1L1",NA,NA,-1,-1
+"221955","DAGLB",NA,NA,-1,-1
+"222","ALDH3B2","Not detected","Enhanced",-1,-1
+"2222","FDFT1","Low","Approved",-1,0
+"2224","FDPS","Medium","Approved",1,1
+"222537","HS3ST5","Not detected","Approved",-1,-1
+"222962","SLC29A4",NA,NA,-1,-1
+"223","ALDH9A1","Low","Approved",-1,0
+"2232","FDXR","Not detected","Enhanced",-1,-1
+"2235","FECH","Medium","Approved",1,1
+"224","ALDH3A2","Medium","Approved",1,1
+"226","ALDOA","Not detected","Enhanced",-1,-1
+"2271","FH","Medium","Enhanced",1,1
+"2272","FHIT","Low","Enhanced",-1,0
+"22820","COPG1","Medium","Supported",1,1
+"22845","DOLK",NA,NA,-1,-1
+"22856","CHSY1","Medium","Uncertain",1,1
+"22876","INPP5F",NA,NA,-1,-1
+"229","ALDOB","Not detected","Enhanced",-1,-1
+"22908","SACM1L","Medium","Approved",1,1
+"22928","SEPHS2","Not detected","Approved",-1,-1
+"22929","SEPHS1","Not detected","Enhanced",-1,-1
+"22933","SIRT2","Low","Approved",-1,0
+"22934","RPIA","Low","Approved",-1,0
+"22949","PTGR1","High","Enhanced",2,2
+"22977","AKR7A3",NA,NA,-1,-1
+"22978","NT5C2","Low","Approved",-1,0
+"230","ALDOC","Not detected","Enhanced",-1,-1
+"23039","XPO7","Low","Uncertain",-1,0
+"23057","NMNAT2","Not detected","Enhanced",-1,-1
+"23070","CMTR1","Medium","Enhanced",1,1
+"231","AKR1B1","Not detected","Enhanced",-1,-1
+"23112","TNRC6B","Low","Approved",-1,0
+"23127","COLGALT2","High","Approved",2,2
+"23169","SLC35D1",NA,NA,-1,-1
+"23171","GPD1L",NA,NA,-1,-1
+"23175","LPIN1","Low","Approved",-1,0
+"23193","GANAB","Not detected","Enhanced",-1,-1
+"23203","PMPCA","High","Enhanced",2,2
+"23205","ACSBG1","Not detected","Approved",-1,-1
+"23214","XPO6","Medium","Uncertain",1,1
+"23236","PLCB1","Not detected","Enhanced",-1,-1
+"2326","FMO1","Medium","Uncertain",1,1
+"23262","PPIP5K2","Medium","Approved",1,1
+"2327","FMO2","Medium","Approved",1,1
+"2328","FMO3","Not detected","Enhanced",-1,-1
+"2329","FMO4","Medium","Uncertain",1,1
+"2330","FMO5","Not detected","Enhanced",-1,-1
+"23305","ACSL6","Low","Enhanced",-1,0
+"23315","SLC9A8","Not detected","Approved",-1,-1
+"23318","ZCCHC11","Medium","Supported",1,1
+"23324","MAN2B2","Not detected","Uncertain",-1,-1
+"23363","OBSL1","Medium","Approved",1,1
+"23371","TENC1",NA,NA,-1,-1
+"23382","AHCYL2","Not detected","Uncertain",-1,-1
+"2339","FNTA","High","Approved",2,2
+"23395","LARS2","Medium","Approved",1,1
+"23396","PIP5K1C","Low","Approved",-1,0
+"23408","SIRT5","Medium","Approved",1,1
+"23410","SIRT3","High","Approved",2,2
+"23411","SIRT1","Low","Approved",-1,0
+"23417","MLYCD","High","Enhanced",2,2
+"2342","FNTB","Not detected","Approved",-1,-1
+"23428","SLC7A8","Not detected","Enhanced",-1,-1
+"23430","TPSD1","Not detected","Supported",-1,-1
+"23438","HARS2","Low","Approved",-1,0
+"23439","ATP1B4",NA,NA,-1,-1
+"23443","SLC35A3","Not detected","Uncertain",-1,-1
+"23446","SLC44A1",NA,NA,-1,-1
+"23463","ICMT","Not detected","Uncertain",-1,-1
+"23464","GCAT","Low","Uncertain",-1,0
+"23475","QPRT","Not detected","Approved",-1,-1
+"23478","SEC11A",NA,NA,-1,-1
+"2348","FOLR1",NA,NA,-1,-1
+"23483","TGDS","Low","Approved",-1,0
+"23491","CES3","Not detected","Approved",-1,-1
+"23498","HAAO","Not detected","Enhanced",-1,-1
+"23516","SLC39A14","Low","Approved",-1,0
+"23517","SKIV2L2","Medium","Supported",1,1
+"2352","FOLR3",NA,NA,-1,-1
+"23530","NNT","High","Enhanced",2,2
+"23533","PIK3R5","Not detected","Uncertain",-1,-1
+"23539","SLC16A8","Not detected","Supported",-1,-1
+"23545","ATP6V0A2","Medium","Approved",1,1
+"23553","HYAL4",NA,NA,-1,-1
+"23556","PIGN","Medium","Approved",1,1
+"2356","FPGS","Not detected","Approved",-1,-1
+"23563","CHST5","Not detected","Enhanced",-1,-1
+"23564","DDAH2","Medium","Uncertain",1,1
+"23569","PADI4","Not detected","Enhanced",-1,-1
+"23576","DDAH1","Not detected","Enhanced",-1,-1
+"23590","PDSS1","Medium","Uncertain",1,1
+"23597","ACOT9","Medium","Supported",1,1
+"23600","AMACR","Not detected","Enhanced",-1,-1
+"23616","SH3BP1","Not detected","Enhanced",-1,-1
+"23632","CA14","Not detected","Approved",-1,-1
+"23633","KPNA6","Medium","Supported",1,1
+"23646","PLD3","Medium","Approved",1,1
+"23649","POLA2","Low","Enhanced",-1,0
+"23657","SLC7A11",NA,NA,-1,-1
+"23659","PLA2G15","Medium","Enhanced",1,1
+"23729","SHPK","Low","Enhanced",-1,0
+"23743","BHMT2","Not detected","Enhanced",-1,-1
+"23761","PISD","Medium","Approved",1,1
+"239","ALOX12","High","Approved",2,2
+"2395","FXN","Medium","Supported",1,1
+"240","ALOX5","Not detected","Enhanced",-1,-1
+"242","ALOX12B","Not detected","Supported",-1,-1
+"245972","ATP6V0D2","Not detected","Enhanced",-1,-1
+"245973","ATP6V1C2","Not detected","Approved",-1,-1
+"246","ALOX15","Not detected","Approved",-1,-1
+"246213","SLC17A8",NA,NA,-1,-1
+"247","ALOX15B","Not detected","Enhanced",-1,-1
+"248","ALPI","Not detected","Supported",-1,-1
+"249","ALPL","Not detected","Enhanced",-1,-1
+"2495","FTH1","Low","Approved",-1,0
+"250","ALPP","Not detected","Enhanced",-1,-1
+"251","ALPPL2","Not detected","Supported",-1,-1
+"2517","FUCA1","Not detected","Enhanced",-1,-1
+"2519","FUCA2","Not detected","Uncertain",-1,-1
+"2523","FUT1",NA,NA,-1,-1
+"2524","FUT2","Medium","Uncertain",1,1
+"2525","FUT3","Low","Supported",-1,0
+"2526","FUT4","Not detected","Enhanced",-1,-1
+"2527","FUT5",NA,NA,-1,-1
+"2528","FUT6","Low","Approved",-1,0
+"2529","FUT7",NA,NA,-1,-1
+"2530","FUT8","Medium","Enhanced",1,1
+"253017","TECRL",NA,NA,-1,-1
+"2531","KDSR","Medium","Approved",1,1
+"253430","IPMK","Medium","Uncertain",1,1
+"253558","LCLAT1",NA,NA,-1,-1
+"253782","CERS6","Not detected","Approved",-1,-1
+"2538","G6PC","Low","Enhanced",-1,0
+"2539","G6PD","Not detected","Enhanced",-1,-1
+"254173","TTLL10",NA,NA,-1,-1
+"2542","SLC37A4","Medium","Enhanced",1,1
+"254428","SLC41A1","High","Uncertain",2,2
+"254531","LPCAT4","Low","Uncertain",-1,0
+"2548","GAA","Not detected","Enhanced",-1,-1
+"255189","PLA2G4F","Low","Enhanced",-1,0
+"256126","SYCE2","Not detected","Enhanced",-1,-1
+"256281","NUDT14","Medium","Approved",1,1
+"256356","GK5","Not detected","Approved",-1,-1
+"256435","ST6GALNAC3",NA,NA,-1,-1
+"2571","GAD1","Not detected","Enhanced",-1,-1
+"2572","GAD2","Not detected","Enhanced",-1,-1
+"257202","GPX6",NA,NA,-1,-1
+"25769","SLC24A2",NA,NA,-1,-1
+"25796","PGLS","Medium","Approved",1,1
+"25797","QPCT","Not detected","Enhanced",-1,-1
+"25800","SLC39A6","Medium","Approved",1,1
+"2581","GALC","Low","Approved",-1,0
+"2582","GALE","High","Approved",2,2
+"2583","B4GALNT1","Not detected","Enhanced",-1,-1
+"25834","MGAT4C","Medium","Approved",1,1
+"2584","GALK1","Medium","Approved",1,1
+"2585","GALK2","Medium","Uncertain",1,1
+"25874","MPC2","Medium","Uncertain",1,1
+"2588","GALNS","Medium","Enhanced",1,1
+"25885","POLR1A","Medium","Supported",1,1
+"25902","MTHFD1L","Medium","Approved",1,1
+"2592","GALT","Medium","Enhanced",1,1
+"259230","SGMS1","Medium","Approved",1,1
+"2593","GAMT","Not detected","Approved",-1,-1
+"259307","IL4I1","Not detected","Enhanced",-1,-1
+"2595","GANC","Medium","Approved",1,1
+"2597","GAPDH","Medium","Supported",1,1
+"25973","PARS2","Low","Uncertain",-1,0
+"25976","TIPARP","Low","Uncertain",-1,0
+"26","AOC1","Low","Approved",-1,0
+"26002","MOXD1","Not detected","Approved",-1,-1
+"26007","DAK",NA,NA,-1,-1
+"260293","CYP4X1","Low","Approved",-1,0
+"26035","GLCE","Medium","Uncertain",1,1
+"26061","HACL1","Not detected","Approved",-1,-1
+"26063","DECR2",NA,NA,-1,-1
+"26090","ABHD12","Not detected","Uncertain",-1,-1
+"26121","PRPF31","High","Supported",2,2
+"2617","GARS","Medium","Enhanced",1,1
+"2618","GART","Not detected","Approved",-1,-1
+"262","AMD1","Medium","Approved",1,1
+"26227","PHGDH","Low","Enhanced",-1,0
+"26229","B3GAT3","Not detected","Approved",-1,-1
+"26266","SLC13A4","Not detected","Approved",-1,-1
+"26275","HIBCH","High","Enhanced",2,2
+"26279","PLA2G2D",NA,NA,-1,-1
+"2628","GATM","Not detected","Enhanced",-1,-1
+"26289","AK5","Not detected","Enhanced",-1,-1
+"2629","GBA","Medium","Supported",1,1
+"26301","GBGT1","Medium","Approved",1,1
+"2632","GBE1","High","Enhanced",2,2
+"26330","GAPDHS","Not detected","Enhanced",-1,-1
+"2638","GC","Low","Supported",-1,0
+"2639","GCDH","High","Enhanced",2,2
+"2643","GCH1","Low","Approved",-1,0
+"2645","GCK","Low","Approved",-1,0
+"2650","GCNT1","High","Uncertain",2,2
+"26503","SLC17A5",NA,NA,-1,-1
+"2651","GCNT2","Medium","Approved",1,1
+"2653","GCSH","Low","Approved",-1,0
+"2657","GDF1",NA,NA,-1,-1
+"26576","SRPK3",NA,NA,-1,-1
+"26580","BSCL2","Low","Approved",-1,0
+"266722","HS6ST3",NA,NA,-1,-1
+"266740","MAGEA2B",NA,NA,-1,-1
+"2673","GFPT1",NA,NA,-1,-1
+"2678","GGT1","Not detected","Supported",-1,-1
+"2683","B4GALT1","Not detected","Enhanced",-1,-1
+"2686","GGT7","Low","Approved",-1,0
+"2687","GGT5","Not detected","Uncertain",-1,-1
+"26873","OPLAH",NA,NA,-1,-1
+"26958","COPG2","Not detected","Approved",-1,-1
+"270","AMPD1","Low","Enhanced",-1,0
+"27010","TPK1","Low","Approved",-1,0
+"27032","ATP2C1","Low","Supported",-1,0
+"27034","ACAD8","High","Enhanced",2,2
+"27068","PPA2","Medium","Supported",1,1
+"27087","B3GAT1","Not detected","Enhanced",-1,-1
+"27090","ST6GALNAC4",NA,NA,-1,-1
+"271","AMPD2","Not detected","Approved",-1,-1
+"2710","GK","Low","Supported",-1,0
+"2712","GK2",NA,NA,-1,-1
+"27124","INPP5J",NA,NA,-1,-1
+"2713","GK3P",NA,NA,-1,-1
+"27132","CPNE7",NA,NA,-1,-1
+"27159","CHIA","Low","Approved",-1,0
+"27163","NAAA","Low","Approved",-1,0
+"27165","GLS2","Medium","Uncertain",1,1
+"2717","GLA","Not detected","Enhanced",-1,-1
+"27173","SLC39A1",NA,NA,-1,-1
+"272","AMPD3","Low","Uncertain",-1,0
+"2720","GLB1","Low","Enhanced",-1,0
+"27231","NMRK2","Not detected","Approved",-1,-1
+"27232","GNMT","Not detected","Enhanced",-1,-1
+"27235","COQ2","Not detected","Approved",-1,-1
+"27284","SULT1B1","Not detected","Enhanced",-1,-1
+"2729","GCLC","Low","Approved",-1,0
+"27294","DHDH","Not detected","Approved",-1,-1
+"27297","CRCP","Medium","Approved",1,1
+"2730","GCLM","Low","Uncertain",-1,0
+"27306","HPGDS","Not detected","Enhanced",-1,-1
+"2731","GLDC","Not detected","Enhanced",-1,-1
+"27343","POLL",NA,NA,-1,-1
+"27349","MCAT","High","Approved",2,2
+"2739","GLO1","Not detected","Enhanced",-1,-1
+"27430","MAT2B","Not detected","Uncertain",-1,-1
+"27434","POLM",NA,NA,-1,-1
+"2744","GLS","Medium","Enhanced",1,1
+"2745","GLRX","Low","Approved",-1,0
+"2746","GLUD1","Medium","Approved",1,1
+"2747","GLUD2","Medium","Uncertain",1,1
+"275","AMT","High","Supported",2,2
+"2752","GLUL","Not detected","Approved",-1,-1
+"276","AMY1A","Not detected","Supported",-1,-1
+"2760","GM2A","High","Enhanced",2,2
+"2762","GMDS","Medium","Enhanced",1,1
+"2766","GMPR","Not detected","Uncertain",-1,-1
+"277","AMY1B","Not detected","Supported",-1,-1
+"278","AMY1C","Not detected","Supported",-1,-1
+"279","AMY2A","Not detected","Enhanced",-1,-1
+"2799","GNS","Low","Enhanced",-1,0
+"28","ABO",NA,NA,-1,-1
+"280","AMY2B","Not detected","Supported",-1,-1
+"2805","GOT1","Medium","Enhanced",1,1
+"2806","GOT2","High","Enhanced",2,2
+"2819","GPD1","Medium","Enhanced",1,1
+"2820","GPD2","Medium","Enhanced",1,1
+"2821","GPI","Medium","Enhanced",1,1
+"2822","GPLD1",NA,NA,-1,-1
+"28231","SLCO4A1","Medium","Uncertain",1,1
+"28232","SLCO3A1","Not detected","Approved",-1,-1
+"28234","SLCO1B3","Not detected","Enhanced",-1,-1
+"283208","P4HA3","Not detected","Approved",-1,-1
+"283209","PGM2L1","Not detected","Enhanced",-1,-1
+"283375","SLC39A5",NA,NA,-1,-1
+"283652","SLC24A5",NA,NA,-1,-1
+"283748","PLA2G4D",NA,NA,-1,-1
+"283871","PGP","Medium","Approved",1,1
+"283985","FADS6",NA,NA,-1,-1
+"284004","HEXDC","Not detected","Uncertain",-1,-1
+"284098","PIGW",NA,NA,-1,-1
+"284111","SLC13A5","Not detected","Approved",-1,-1
+"284129","SLC26A11","Not detected","Approved",-1,-1
+"284273","ZADH2","Medium","Uncertain",1,1
+"284541","CYP4A22",NA,NA,-1,-1
+"285195","SLC9A9","Medium","Approved",1,1
+"285440","CYP4V2","Medium","Approved",1,1
+"285641","SLC36A3",NA,NA,-1,-1
+"285973","ATG9B",NA,NA,-1,-1
+"2875","GPT","Not detected","Enhanced",-1,-1
+"2876","GPX1","Low","Approved",-1,0
+"2877","GPX2","Not detected","Enhanced",-1,-1
+"2878","GPX3","Medium","Uncertain",1,1
+"2879","GPX4","Low","Enhanced",-1,0
+"2880","GPX5",NA,NA,-1,-1
+"2882","GPX7",NA,NA,-1,-1
+"28965","SLC27A6","High","Approved",2,2
+"28972","SPCS1","Low","Supported",-1,0
+"28976","ACAD9","Medium","Supported",1,1
+"28992","MACROD1",NA,NA,-1,-1
+"290","ANPEP","Not detected","Enhanced",-1,-1
+"29071","C1GALT1C1","High","Approved",2,2
+"29085","PHPT1","Medium","Approved",1,1
+"291","SLC25A4","High","Approved",2,2
+"292","SLC25A5","High","Approved",2,2
+"2923","PDIA3","Not detected","Enhanced",-1,-1
+"293","SLC25A6","High","Approved",2,2
+"2936","GSR","Not detected","Approved",-1,-1
+"2937","GSS","Not detected","Enhanced",-1,-1
+"2938","GSTA1","Not detected","Supported",-1,-1
+"2939","GSTA2","Not detected","Supported",-1,-1
+"2940","GSTA3","Not detected","Approved",-1,-1
+"2941","GSTA4","Medium","Approved",1,1
+"2944","GSTM1","High","Approved",2,2
+"2946","GSTM2","Medium","Approved",1,1
+"2947","GSTM3","Not detected","Enhanced",-1,-1
+"2948","GSTM4","Medium","Approved",1,1
+"2949","GSTM5","Not detected","Approved",-1,-1
+"2950","GSTP1","Low","Enhanced",-1,0
+"2952","GSTT1",NA,NA,-1,-1
+"2953","GSTT2",NA,NA,-1,-1
+"2954","GSTZ1","Medium","Approved",1,1
+"2977","GUCY1A2","High","Uncertain",2,2
+"29785","CYP2S1","Low","Approved",-1,0
+"2982","GUCY1A3","Medium","Uncertain",1,1
+"2983","GUCY1B3","Medium","Approved",1,1
+"2987","GUK1","Low","Approved",-1,0
+"29880","ALG5","Not detected","Approved",-1,-1
+"29881","NPC1L1","Not detected","Enhanced",-1,-1
+"2990","GUSB","Low","Approved",-1,0
+"29906","ST8SIA5","Low","Approved",-1,0
+"29914","UBIAD1",NA,NA,-1,-1
+"2992","GYG1","Not detected","Approved",-1,-1
+"29920","PYCR2","Not detected","Approved",-1,-1
+"29922","NME7","Not detected","Uncertain",-1,-1
+"29925","GMPPB","Medium","Uncertain",1,1
+"29926","GMPPA","Not detected","Approved",-1,-1
+"29929","ALG6",NA,NA,-1,-1
+"29940","DSE","Low","Uncertain",-1,0
+"29943","PADI1","Not detected","Enhanced",-1,-1
+"29947","DNMT3L",NA,NA,-1,-1
+"29953","TRHDE",NA,NA,-1,-1
+"29954","POMT2","Low","Uncertain",-1,0
+"29956","CERS2","Not detected","Approved",-1,-1
+"29958","DMGDH","Not detected","Enhanced",-1,-1
+"29968","PSAT1","Not detected","Enhanced",-1,-1
+"2997","GYS1","High","Enhanced",2,2
+"2998","GYS2","Not detected","Approved",-1,-1
+"29985","SLC39A3","High","Uncertain",2,2
+"29986","SLC39A2","Low","Uncertain",-1,0
+"29988","SLC2A8","Low","Uncertain",-1,0
+"30","ACAA1","Medium","Enhanced",1,1
+"30061","SLC40A1","Not detected","Approved",-1,-1
+"3028","HSD17B10","Medium","Approved",1,1
+"3029","HAGH","Medium","Approved",1,1
+"3030","HADHA","Medium","Approved",1,1
+"3032","HADHB","Medium","Enhanced",1,1
+"3033","HADH","High","Supported",2,2
+"3034","HAL","Medium","Enhanced",1,1
+"3035","HARS","Not detected","Approved",-1,-1
+"3036","HAS1","Not detected","Approved",-1,-1
+"3037","HAS2",NA,NA,-1,-1
+"3038","HAS3","Not detected","Supported",-1,-1
+"3052","HCCS","Low","Approved",-1,0
+"306","ANXA3","Not detected","Enhanced",-1,-1
+"3067","HDC","Medium","Approved",1,1
+"3069","HDLBP","Low","Supported",-1,0
+"3073","HEXA","Medium","Supported",1,1
+"3074","HEXB","Low","Enhanced",-1,0
+"3081","HGD","Not detected","Enhanced",-1,-1
+"30814","PLA2G2E",NA,NA,-1,-1
+"30815","ST6GALNAC6","Medium","Approved",1,1
+"30833","NT5C","Not detected","Approved",-1,-1
+"30834","ZNRD1","Medium","Supported",1,1
+"3091","HIF1A","Not detected","Supported",-1,-1
+"3098","HK1","Medium","Supported",1,1
+"3099","HK2","Medium","Enhanced",1,1
+"31","ACACA","High","Approved",2,2
+"3101","HK3","Not detected","Enhanced",-1,-1
+"313","AOAH","Not detected","Uncertain",-1,-1
+"314","AOC2",NA,NA,-1,-1
+"3141","HLCS","Medium","Approved",1,1
+"3145","HMBS","Medium","Enhanced",1,1
+"3155","HMGCL","Medium","Enhanced",1,1
+"3156","HMGCR","Medium","Approved",1,1
+"3157","HMGCS1","Not detected","Approved",-1,-1
+"3158","HMGCS2","Not detected","Enhanced",-1,-1
+"316","AOX1","Not detected","Enhanced",-1,-1
+"3162","HMOX1","Not detected","Enhanced",-1,-1
+"3163","HMOX2","Low","Supported",-1,0
+"3176","HNMT","Low","Approved",-1,0
+"3177","SLC29A2","High","Approved",2,2
+"317749","DHRS4L2",NA,NA,-1,-1
+"318","NUDT2","Not detected","Uncertain",-1,-1
+"32","ACACB","Not detected","Enhanced",-1,-1
+"3242","HPD","Not detected","Enhanced",-1,-1
+"3248","HPGD","Not detected","Enhanced",-1,-1
+"3251","HPRT1","Not detected","Enhanced",-1,-1
+"326625","MMAB","Medium","Approved",1,1
+"3283","HSD3B1","Not detected","Supported",-1,-1
+"3284","HSD3B2","Not detected","Supported",-1,-1
+"3290","HSD11B1","Not detected","Enhanced",-1,-1
+"3291","HSD11B2","Not detected","Enhanced",-1,-1
+"3292","HSD17B1","Not detected","Enhanced",-1,-1
+"3293","HSD17B3","Not detected","Enhanced",-1,-1
+"3294","HSD17B2","Not detected","Enhanced",-1,-1
+"3295","HSD17B4","Medium","Enhanced",1,1
+"33","ACADL","Not detected","Enhanced",-1,-1
+"3339","HSPG2","Medium","Approved",1,1
+"3340","NDST1","Medium","Approved",1,1
+"335","APOA1","Not detected","Supported",-1,-1
+"336","APOA2","Not detected","Supported",-1,-1
+"3373","HYAL1","Not detected","Uncertain",-1,-1
+"3376","IARS","Not detected","Approved",-1,-1
+"337867","UBAC2","Medium","Approved",1,1
+"337876","CHSY3",NA,NA,-1,-1
+"337880","KRTAP11-1","Not detected","Supported",-1,-1
+"338328","GPIHBP1","Low","Enhanced",-1,0
+"339221","ENPP7","Not detected","Approved",-1,-1
+"3396","ICT1",NA,NA,-1,-1
+"339983","NAT8L",NA,NA,-1,-1
+"34","ACADM","High","Enhanced",2,2
+"340024","SLC6A19","Not detected","Enhanced",-1,-1
+"340156","MYLK4",NA,NA,-1,-1
+"340485","ACER2",NA,NA,-1,-1
+"341392","ACSM4",NA,NA,-1,-1
+"3417","IDH1","Not detected","Enhanced",-1,-1
+"3418","IDH2","High","Enhanced",2,2
+"3419","IDH3A","Low","Supported",-1,0
+"3420","IDH3B","Medium","Enhanced",1,1
+"3421","IDH3G","Medium","Enhanced",1,1
+"3422","IDI1","Low","Approved",-1,0
+"3423","IDS",NA,NA,-1,-1
+"3425","IDUA","Low","Enhanced",-1,0
+"343","AQP8","Not detected","Enhanced",-1,-1
+"343641","TGM6",NA,NA,-1,-1
+"345274","SLC10A6","Not detected","Enhanced",-1,-1
+"346606","MOGAT3","Medium","Uncertain",1,1
+"347734","SLC35B2","Not detected","Approved",-1,-1
+"348158","ACSM2B","Not detected","Supported",-1,-1
+"348932","SLC6A18","Not detected","Enhanced",-1,-1
+"349565","NMNAT3","High","Approved",2,2
+"35","ACADS","Medium","Enhanced",1,1
+"353","APRT","Not detected","Approved",-1,-1
+"353238","PADI6",NA,NA,-1,-1
+"353497","POLN",NA,NA,-1,-1
+"358","AQP1","Not detected","Enhanced",-1,-1
+"359","AQP2","Not detected","Enhanced",-1,-1
+"36","ACADSB","Low","Enhanced",-1,0
+"360","AQP3","Not detected","Enhanced",-1,-1
+"361","AQP4","Not detected","Enhanced",-1,-1
+"3612","IMPA1","Medium","Approved",1,1
+"3613","IMPA2","Not detected","Approved",-1,-1
+"3614","IMPDH1","Medium","Approved",1,1
+"3615","IMPDH2","Low","Approved",-1,0
+"362","AQP5","Not detected","Enhanced",-1,-1
+"3620","IDO1","Not detected","Enhanced",-1,-1
+"3628","INPP1","Not detected","Supported",-1,-1
+"363","AQP6","Not detected","Enhanced",-1,-1
+"3631","INPP4A","Not detected","Approved",-1,-1
+"3632","INPP5A","Medium","Enhanced",1,1
+"3633","INPP5B","Medium","Approved",1,1
+"3635","INPP5D","Low","Uncertain",-1,0
+"3636","INPPL1","Medium","Approved",1,1
+"364","AQP7",NA,NA,-1,-1
+"3658","IREB2","Low","Uncertain",-1,0
+"366","AQP9","Not detected","Enhanced",-1,-1
+"37","ACADVL","High","Enhanced",2,2
+"3704","ITPA","Medium","Approved",1,1
+"3705","ITPK1","Medium","Approved",1,1
+"3706","ITPKA","Not detected","Enhanced",-1,-1
+"3707","ITPKB","Not detected","Uncertain",-1,-1
+"3712","IVD","Medium","Enhanced",1,1
+"372","ARCN1","Medium","Approved",1,1
+"373156","GSTK1","Medium","Enhanced",1,1
+"3735","KARS","Medium","Enhanced",1,1
+"374462","PTPRQ",NA,NA,-1,-1
+"374569","ASPG","Low","Enhanced",-1,0
+"374907","B3GNT8","Low","Enhanced",-1,0
+"375056","MIA3","Low","Enhanced",-1,0
+"375775","PNPLA7","Medium","Uncertain",1,1
+"376497","SLC27A1",NA,NA,-1,-1
+"377677","CA13","Low","Enhanced",-1,0
+"377841","ENTPD8","Not detected","Enhanced",-1,-1
+"3795","KHK","Not detected","Enhanced",-1,-1
+"38","ACAT1","High","Enhanced",2,2
+"3816","KLK1",NA,NA,-1,-1
+"3817","KLK2","Not detected","Supported",-1,-1
+"383","ARG1","Not detected","Enhanced",-1,-1
+"384","ARG2","Medium","Enhanced",1,1
+"386724","AMIGO3",NA,NA,-1,-1
+"387700","SLC16A12",NA,NA,-1,-1
+"387787","LIPT2","Medium","Approved",1,1
+"388714","FMO6P",NA,NA,-1,-1
+"389015","SLC9A4","Not detected","Supported",-1,-1
+"3897","L1CAM","Low","Enhanced",-1,0
+"39","ACAT2","Low","Enhanced",-1,0
+"3906","LALBA","Not detected","Supported",-1,-1
+"390877","LOC390877",NA,NA,-1,-1
+"390928","PAPL",NA,NA,-1,-1
+"391013","PLA2G2C",NA,NA,-1,-1
+"3930","LBR","Not detected","Enhanced",-1,-1
+"3931","LCAT",NA,NA,-1,-1
+"3938","LCT",NA,NA,-1,-1
+"3939","LDHA","Not detected","Uncertain",-1,-1
+"3945","LDHB","Medium","Enhanced",1,1
+"3948","LDHC","Not detected","Enhanced",-1,-1
+"3949","LDLR","Low","Approved",-1,0
+"3988","LIPA","Not detected","Enhanced",-1,-1
+"3990","LIPC",NA,NA,-1,-1
+"3992","FADS1","High","Approved",2,2
+"3995","FADS3","Low","Approved",-1,0
+"401251","SAPCD1",NA,NA,-1,-1
+"401494","PTPLAD2",NA,NA,-1,-1
+"4015","LOX",NA,NA,-1,-1
+"4017","LOXL2","Low","Approved",-1,0
+"4023","LPL",NA,NA,-1,-1
+"4025","LPO","Not detected","Enhanced",-1,-1
+"403313","PPAPDC2",NA,NA,-1,-1
+"403314","APOBEC4","Low","Approved",-1,0
+"4036","LRP2","Not detected","Enhanced",-1,-1
+"4047","LSS","Medium","Supported",1,1
+"4048","LTA4H","Low","Supported",-1,0
+"4051","CYP4F3","Low","Approved",-1,0
+"4056","LTC4S",NA,NA,-1,-1
+"410","ARSA","Medium","Enhanced",1,1
+"4101","MAGEA2",NA,NA,-1,-1
+"411","ARSB","High","Enhanced",2,2
+"412","STS","Not detected","Enhanced",-1,-1
+"4121","MAN1A1","Medium","Uncertain",1,1
+"4122","MAN2A2","Medium","Approved",1,1
+"4123","MAN2C1",NA,NA,-1,-1
+"4124","MAN2A1","Medium","Enhanced",1,1
+"4125","MAN2B1","Medium","Supported",1,1
+"4126","MANBA","Not detected","Approved",-1,-1
+"4128","MAOA","Medium","Enhanced",1,1
+"4129","MAOB","High","Enhanced",2,2
+"414","ARSD","High","Approved",2,2
+"4141","MARS","Medium","Supported",1,1
+"4143","MAT1A","Not detected","Supported",-1,-1
+"4144","MAT2A","Not detected","Approved",-1,-1
+"415","ARSE","Not detected","Approved",-1,-1
+"4166","CHST6",NA,NA,-1,-1
+"417","ART1",NA,NA,-1,-1
+"419","ART3","Low","Enhanced",-1,0
+"4190","MDH1","Medium","Uncertain",1,1
+"4191","MDH2","High","Enhanced",2,2
+"4199","ME1","Medium","Enhanced",1,1
+"420","ART4",NA,NA,-1,-1
+"4200","ME2","High","Enhanced",2,2
+"4234","METTL1","Not detected","Uncertain",-1,-1
+"4245","MGAT1","Medium","Approved",1,1
+"4247","MGAT2","Medium","Approved",1,1
+"4248","MGAT3","High","Approved",2,2
+"4249","MGAT5","Medium","Approved",1,1
+"4255","MGMT","Low","Supported",-1,0
+"4257","MGST1","Medium","Enhanced",1,1
+"4258","MGST2","Low","Approved",-1,0
+"4259","MGST3",NA,NA,-1,-1
+"427","ASAH1","High","Supported",2,2
+"4282","MIF","Not detected","Approved",-1,-1
+"43","ACHE",NA,NA,-1,-1
+"4329","ALDH6A1","Low","Enhanced",-1,0
+"4337","MOCS1","Medium","Uncertain",1,1
+"4338","MOCS2","Medium","Approved",1,1
+"435","ASL","Not detected","Supported",-1,-1
+"4351","MPI","Low","Approved",-1,0
+"4353","MPO","Not detected","Enhanced",-1,-1
+"4357","MPST","Not detected","Enhanced",-1,-1
+"4363","ABCC1","Not detected","Uncertain",-1,-1
+"438","ASMT",NA,NA,-1,-1
+"440","ASNS","Low","Approved",-1,0
+"440138","ALG11","Medium","Approved",1,1
+"441024","MTHFD2L",NA,NA,-1,-1
+"441531","PGAM4",NA,NA,-1,-1
+"443","ASPA","Low","Enhanced",-1,0
+"444","ASPH","Not detected","Uncertain",-1,-1
+"445","ASS1","Not detected","Enhanced",-1,-1
+"445329","SULT1A4","Low","Supported",-1,0
+"4482","MSRA","Low","Approved",-1,0
+"4507","MTAP",NA,NA,-1,-1
+"4508","ATP6",NA,NA,-1,-1
+"4509","ATP8",NA,NA,-1,-1
+"4512","COX1",NA,NA,-1,-1
+"4513","COX2",NA,NA,-1,-1
+"4514","COX3",NA,NA,-1,-1
+"4519","CYTB",NA,NA,-1,-1
+"4522","MTHFD1","Low","Approved",-1,0
+"4524","MTHFR",NA,NA,-1,-1
+"4534","MTM1","Not detected","Approved",-1,-1
+"4535","ND1",NA,NA,-1,-1
+"4536","ND2",NA,NA,-1,-1
+"4537","ND3",NA,NA,-1,-1
+"4538","ND4",NA,NA,-1,-1
+"4539","ND4L",NA,NA,-1,-1
+"4540","ND5",NA,NA,-1,-1
+"4541","ND6",NA,NA,-1,-1
+"4548","MTR","Not detected","Approved",-1,-1
+"4552","MTRR","Medium","Supported",1,1
+"4594","MUT","Medium","Enhanced",1,1
+"4597","MVD","Medium","Uncertain",1,1
+"4598","MVK","Medium","Approved",1,1
+"4638","MYLK","Not detected","Enhanced",-1,-1
+"4645","MYO5B","Low","Enhanced",-1,0
+"4668","NAGA","Low","Enhanced",-1,0
+"4669","NAGLU","Low","Supported",-1,0
+"4677","NARS","Low","Enhanced",-1,0
+"47","ACLY","Low","Enhanced",-1,0
+"471","ATIC","Medium","Supported",1,1
+"4758","NEU1","High","Approved",2,2
+"476","ATP1A1","Not detected","Enhanced",-1,-1
+"477","ATP1A2","Low","Approved",-1,0
+"478","ATP1A3","Medium","Enhanced",1,1
+"479","ATP12A",NA,NA,-1,-1
+"48","ACO1","Medium","Enhanced",1,1
+"480","ATP1A4",NA,NA,-1,-1
+"481","ATP1B1","High","Enhanced",2,2
+"482","ATP1B2","Not detected","Enhanced",-1,-1
+"483","ATP1B3","Low","Enhanced",-1,0
+"4830","NME1","Not detected","Supported",-1,-1
+"4831","NME2","Not detected","Approved",-1,-1
+"4832","NME3","Not detected","Approved",-1,-1
+"4833","NME4","Not detected","Approved",-1,-1
+"4835","NQO2","Medium","Enhanced",1,1
+"4836","NMT1","Medium","Enhanced",1,1
+"4837","NNMT","Not detected","Approved",-1,-1
+"4842","NOS1","Not detected","Uncertain",-1,-1
+"4843","NOS2","Not detected","Approved",-1,-1
+"4846","NOS3","Not detected","Enhanced",-1,-1
+"486","FXYD2","Not detected","Supported",-1,-1
+"4860","PNP","Not detected","Enhanced",-1,-1
+"4864","NPC1","Medium","Approved",1,1
+"487","ATP2A1","Not detected","Enhanced",-1,-1
+"488","ATP2A2","High","Enhanced",2,2
+"489","ATP2A3","Medium","Approved",1,1
+"4891","SLC11A2","Medium","Uncertain",1,1
+"490","ATP2B1","Medium","Enhanced",1,1
+"4907","NT5E","Medium","Approved",1,1
+"491","ATP2B2","Not detected","Enhanced",-1,-1
+"492","ATP2B3","Not detected","Enhanced",-1,-1
+"493","ATP2B4","Low","Enhanced",-1,0
+"493869","GPX8","Low","Enhanced",-1,0
+"493911","PHOSPHO2","Low","Uncertain",-1,0
+"4942","OAT","Low","Enhanced",-1,0
+"4948","OCA2",NA,NA,-1,-1
+"495","ATP4A","Not detected","Enhanced",-1,-1
+"4952","OCRL","High","Approved",2,2
+"4953","ODC1","Medium","Approved",1,1
+"496","ATP4B","Not detected","Enhanced",-1,-1
+"4967","OGDH","High","Supported",2,2
+"498","ATP5A1","High","Enhanced",2,2
+"50","ACO2","High","Enhanced",2,2
+"5002","SLC22A18","Not detected","Enhanced",-1,-1
+"5009","OTC","Not detected","Enhanced",-1,-1
+"501","ALDH7A1","Low","Enhanced",-1,0
+"5019","OXCT1","High","Enhanced",2,2
+"5033","P4HA1","Medium","Enhanced",1,1
+"5034","P4HB","Low","Enhanced",-1,0
+"5048","PAFAH1B1","Low","Approved",-1,0
+"50484","RRM2B","Not detected","Approved",-1,-1
+"50487","PLA2G3","Medium","Uncertain",1,1
+"5049","PAFAH1B2","Medium","Approved",1,1
+"5050","PAFAH1B3","Not detected","Uncertain",-1,-1
+"50506","DUOX2",NA,NA,-1,-1
+"5051","PAFAH2","Medium","Approved",1,1
+"50515","CHST11","Low","Approved",-1,0
+"5053","PAH","Not detected","Enhanced",-1,-1
+"506","ATP5B","High","Enhanced",2,2
+"50617","ATP6V0A4","Not detected","Enhanced",-1,-1
+"5066","PAM","High","Enhanced",2,2
+"5068","REG3A","Not detected","Supported",-1,-1
+"50700","RDH8",NA,NA,-1,-1
+"50808","AK3","Medium","Enhanced",1,1
+"50814","NSDHL","Low","Enhanced",-1,0
+"509","ATP5C1","Medium","Approved",1,1
+"5091","PC","Medium","Uncertain",1,1
+"5092","PCBD1","Low","Approved",-1,0
+"5095","PCCA","Medium","Enhanced",1,1
+"5096","PCCB","Medium","Enhanced",1,1
+"51","ACOX1","Medium","Approved",1,1
+"51004","COQ6","Medium","Uncertain",1,1
+"51005","AMDHD2","Medium","Enhanced",1,1
+"51022","GLRX2","Low","Supported",-1,0
+"51031","GLOD4","Medium","Enhanced",1,1
+"5105","PCK1","Not detected","Approved",-1,-1
+"51056","LAP3","Not detected","Enhanced",-1,-1
+"5106","PCK2","Not detected","Enhanced",-1,-1
+"51067","YARS2","Low","Uncertain",-1,0
+"51071","DERA",NA,NA,-1,-1
+"51074","APIP","Medium","Approved",1,1
+"51082","POLR1D",NA,NA,-1,-1
+"51084","CRYL1","Low","Enhanced",-1,0
+"51086","TNNI3K",NA,NA,-1,-1
+"51095","TRNT1","Medium","Uncertain",1,1
+"51097","SCCPDH","Not detected","Uncertain",-1,-1
+"51099","ABHD5","Not detected","Approved",-1,-1
+"5110","PCMT1","Medium","Approved",1,1
+"51102","MECR","High","Enhanced",2,2
+"51109","RDH11","Not detected","Enhanced",-1,-1
+"51126","NAA20",NA,NA,-1,-1
+"51129","ANGPTL4","Low","Approved",-1,0
+"51144","HSD17B12","Not detected","Approved",-1,-1
+"51146","A4GNT","Not detected","Enhanced",-1,-1
+"51148","CERCAM","Medium","Uncertain",1,1
+"51166","AADAT","Not detected","Enhanced",-1,-1
+"51167","CYB5R4","Medium","Approved",1,1
+"51170","HSD17B11","Not detected","Approved",-1,-1
+"51172","NAGPA","Medium","Approved",1,1
+"51179","HAO2",NA,NA,-1,-1
+"51181","DCXR","Low","Enhanced",-1,0
+"51196","PLCE1","Medium","Enhanced",1,1
+"51205","ACP6",NA,NA,-1,-1
+"51227","PIGP","Low","Uncertain",-1,0
+"51228","GLTP","Medium","Approved",1,1
+"51251","NT5C3A","Medium","Uncertain",1,1
+"51268","PIPOX",NA,NA,-1,-1
+"51292","GMPR2","Not detected","Uncertain",-1,-1
+"513","ATP5D","High","Uncertain",2,2
+"5130","PCYT1A","Medium","Approved",1,1
+"51301","GCNT4","Not detected","Approved",-1,-1
+"51302","CYP39A1",NA,NA,-1,-1
+"51312","SLC25A37","High","Uncertain",2,2
+"51363","CHST15","High","Approved",2,2
+"51380","CSAD","High","Approved",2,2
+"51382","ATP6V1D","Not detected","Enhanced",-1,-1
+"514","ATP5E",NA,NA,-1,-1
+"5141","PDE4A",NA,NA,-1,-1
+"5142","PDE4B","Not detected","Uncertain",-1,-1
+"51426","POLK",NA,NA,-1,-1
+"5143","PDE4C","Low","Enhanced",-1,0
+"5144","PDE4D","High","Approved",2,2
+"51447","IP6K2","Medium","Approved",1,1
+"51449","PCYOX1","High","Approved",2,2
+"51458","RHCG","Not detected","Enhanced",-1,-1
+"51477","ISYNA1","Not detected","Enhanced",-1,-1
+"51478","HSD17B7","Medium","Approved",1,1
+"51495","PTPLAD1",NA,NA,-1,-1
+"51496","CTDSPL2","Medium","Approved",1,1
+"515","ATP5F1","Medium","Enhanced",1,1
+"5152","PDE9A","Low","Enhanced",-1,0
+"51520","LARS","Medium","Supported",1,1
+"51540","SCLY","Not detected","Uncertain",-1,-1
+"51547","SIRT7","Medium","Enhanced",1,1
+"51548","SIRT6","High","Supported",2,2
+"51557","LGSN","Not detected","Enhanced",-1,-1
+"51559","NT5DC3",NA,NA,-1,-1
+"51573","GDE1",NA,NA,-1,-1
+"516","ATP5G1",NA,NA,-1,-1
+"5160","PDHA1","Medium","Approved",1,1
+"51601","LIPT1","Low","Approved",-1,0
+"51604","PIGT",NA,NA,-1,-1
+"51606","ATP6V1H","High","Approved",2,2
+"5161","PDHA2","Not detected","Approved",-1,-1
+"51611","DPH5","Medium","Approved",1,1
+"5162","PDHB","High","Enhanced",2,2
+"5163","PDK1","Medium","Approved",1,1
+"5164","PDK2","Medium","Supported",1,1
+"5165","PDK3","Not detected","Approved",-1,-1
+"51651","PTRH2","High","Supported",2,2
+"5166","PDK4","High","Approved",2,2
+"51660","MPC1","High","Enhanced",2,2
+"5167","ENPP1","Not detected","Enhanced",-1,-1
+"5168","ENPP2","Not detected","Approved",-1,-1
+"5169","ENPP3","Not detected","Enhanced",-1,-1
+"51699","VPS29","Medium","Uncertain",1,1
+"517","ATP5G2","Medium","Approved",1,1
+"51700","CYB5R2","Not detected","Enhanced",-1,-1
+"51702","PADI3",NA,NA,-1,-1
+"51703","ACSL5","Not detected","Enhanced",-1,-1
+"51706","CYB5R1","High","Enhanced",2,2
+"5172","SLC26A4","Not detected","Approved",-1,-1
+"51727","CMPK1","High","Approved",2,2
+"51728","POLR3K","Medium","Approved",1,1
+"51733","UPB1","Not detected","Enhanced",-1,-1
+"51742","ARID4B","Low","Approved",-1,0
+"51763","INPP5K",NA,NA,-1,-1
+"518","ATP5G3",NA,NA,-1,-1
+"51805","COQ3","High","Enhanced",2,2
+"51816","CECR1","Low","Approved",-1,0
+"5198","PFAS","Low","Enhanced",-1,0
+"52","ACP1","Medium","Approved",1,1
+"5207","PFKFB1",NA,NA,-1,-1
+"5208","PFKFB2","Not detected","Uncertain",-1,-1
+"5209","PFKFB3","Medium","Uncertain",1,1
+"521","ATP5I","High","Supported",2,2
+"5210","PFKFB4",NA,NA,-1,-1
+"5211","PFKL","Not detected","Approved",-1,-1
+"5213","PFKM","High","Approved",2,2
+"5214","PFKP","High","Uncertain",2,2
+"522","ATP5J","High","Supported",2,2
+"5223","PGAM1","Low","Approved",-1,0
+"5224","PGAM2","High","Enhanced",2,2
+"5226","PGD","Not detected","Enhanced",-1,-1
+"523","ATP6V1A","Low","Approved",-1,0
+"5230","PGK1","Low","Approved",-1,0
+"5232","PGK2","Not detected","Supported",-1,-1
+"5236","PGM1","Low","Approved",-1,0
+"5238","PGM3","Not detected","Enhanced",-1,-1
+"5239","PGM5","High","Enhanced",2,2
+"5244","ABCB4","Not detected","Approved",-1,-1
+"525","ATP6V1B1","Not detected","Enhanced",-1,-1
+"5250","SLC25A3",NA,NA,-1,-1
+"5255","PHKA1","Not detected","Enhanced",-1,-1
+"5256","PHKA2","Low","Approved",-1,0
+"5257","PHKB",NA,NA,-1,-1
+"526","ATP6V1B2","Not detected","Enhanced",-1,-1
+"5260","PHKG1","Not detected","Enhanced",-1,-1
+"5261","PHKG2",NA,NA,-1,-1
+"5264","PHYH","Medium","Enhanced",1,1
+"527","ATP6V0C",NA,NA,-1,-1
+"5277","PIGA","Low","Approved",-1,0
+"5279","PIGC","Not detected","Uncertain",-1,-1
+"528","ATP6V1C1","Medium","Approved",1,1
+"5281","PIGF",NA,NA,-1,-1
+"5283","PIGH","Medium","Approved",1,1
+"5286","PIK3C2A","Medium","Uncertain",1,1
+"5287","PIK3C2B","Not detected","Approved",-1,-1
+"5288","PIK3C2G",NA,NA,-1,-1
+"5289","PIK3C3","High","Approved",2,2
+"529","ATP6V1E1","Not detected","Enhanced",-1,-1
+"5290","PIK3CA","Low","Approved",-1,0
+"5291","PIK3CB","Medium","Approved",1,1
+"5293","PIK3CD","Not detected","Enhanced",-1,-1
+"5294","PIK3CG",NA,NA,-1,-1
+"5297","PI4KA","Medium","Approved",1,1
+"5298","PI4KB","Medium","Approved",1,1
+"53","ACP2",NA,NA,-1,-1
+"5305","PIP4K2A","High","Supported",2,2
+"5313","PKLR","Not detected","Enhanced",-1,-1
+"5315","PKM","Medium","Uncertain",1,1
+"5319","PLA2G1B","Not detected","Enhanced",-1,-1
+"5320","PLA2G2A","Not detected","Enhanced",-1,-1
+"5321","PLA2G4A","Low","Approved",-1,0
+"5322","PLA2G5","High","Approved",2,2
+"533","ATP6V0B",NA,NA,-1,-1
+"5330","PLCB2","Medium","Approved",1,1
+"5331","PLCB3","Not detected","Enhanced",-1,-1
+"5332","PLCB4","Low","Supported",-1,0
+"5333","PLCD1","Not detected","Approved",-1,-1
+"53343","NUDT9","Medium","Approved",1,1
+"5335","PLCG1","Medium","Approved",1,1
+"53354","PANK1",NA,NA,-1,-1
+"5336","PLCG2","Low","Enhanced",-1,0
+"5337","PLD1","Low","Enhanced",-1,0
+"5338","PLD2","Medium","Approved",1,1
+"534","ATP6V1G2","Not detected","Enhanced",-1,-1
+"5346","PLIN1","Not detected","Enhanced",-1,-1
+"535","ATP6V0A1","Not detected","Enhanced",-1,-1
+"5351","PLOD1","Not detected","Uncertain",-1,-1
+"5352","PLOD2","Medium","Approved",1,1
+"53630","BCO1",NA,NA,-1,-1
+"5365","PLXNB3","Not detected","Enhanced",-1,-1
+"5372","PMM1","Low","Uncertain",-1,0
+"5373","PMM2","Medium","Approved",1,1
+"539","ATP5O","High","Enhanced",2,2
+"53905","DUOX1","Not detected","Approved",-1,-1
+"53919","SLCO1C1",NA,NA,-1,-1
+"53947","A4GALT",NA,NA,-1,-1
+"54","ACP5","Not detected","Enhanced",-1,-1
+"54020","SLC37A1","Low","Approved",-1,0
+"5406","PNLIP","Not detected","Enhanced",-1,-1
+"5407","PNLIPRP1",NA,NA,-1,-1
+"5408","PNLIPRP2",NA,NA,-1,-1
+"5409","PNMT","Not detected","Enhanced",-1,-1
+"54107","POLE3","Not detected","Uncertain",-1,-1
+"54187","NANS","Not detected","Approved",-1,-1
+"5422","POLA1","High","Enhanced",2,2
+"5423","POLB","Not detected","Enhanced",-1,-1
+"5424","POLD1","Medium","Enhanced",1,1
+"5425","POLD2","Not detected","Approved",-1,-1
+"5426","POLE",NA,NA,-1,-1
+"5427","POLE2","Not detected","Uncertain",-1,-1
+"5428","POLG","Medium","Approved",1,1
+"5429","POLH","Medium","Approved",1,1
+"5430","POLR2A","High","Enhanced",2,2
+"5431","POLR2B","Not detected","Supported",-1,-1
+"5432","POLR2C","Low","Enhanced",-1,0
+"5433","POLR2D","Medium","Approved",1,1
+"5434","POLR2E","Medium","Supported",1,1
+"54344","DPM3","High","Approved",2,2
+"5435","POLR2F","Medium","Supported",1,1
+"5436","POLR2G","Medium","Approved",1,1
+"54363","HAO1","Not detected","Enhanced",-1,-1
+"5437","POLR2H","Medium","Enhanced",1,1
+"5438","POLR2I","Not detected","Uncertain",-1,-1
+"5439","POLR2J","Low","Approved",-1,0
+"5440","POLR2K",NA,NA,-1,-1
+"54407","SLC38A2","Low","Approved",-1,0
+"5441","POLR2L",NA,NA,-1,-1
+"54414","SIAE","Not detected","Approved",-1,-1
+"5442","POLRMT","High","Uncertain",2,2
+"5444","PON1","Low","Uncertain",-1,0
+"5445","PON2","Medium","Enhanced",1,1
+"5446","PON3","Not detected","Enhanced",-1,-1
+"5447","POR","Not detected","Enhanced",-1,-1
+"54480","CHPF2","Medium","Approved",1,1
+"54490","UGT2B28","Not detected","Uncertain",-1,-1
+"54495","TMX3","High","Uncertain",2,2
+"54498","SMOX","Medium","Approved",1,1
+"54511","HMGCLL1",NA,NA,-1,-1
+"54545","MTMR12","High","Supported",2,2
+"54575","UGT1A10",NA,NA,-1,-1
+"54576","UGT1A8",NA,NA,-1,-1
+"54625","PARP14","Medium","Supported",1,1
+"5464","PPA1","Low","Supported",-1,0
+"54658","UGT1A1",NA,NA,-1,-1
+"54675","CRLS1",NA,NA,-1,-1
+"54677","CROT","Low","Enhanced",-1,0
+"54682","MANSC1","Low","Approved",-1,0
+"54704","PDP1","Medium","Uncertain",1,1
+"5471","PPAT","Medium","Approved",1,1
+"54716","SLC6A20","Not detected","Uncertain",-1,-1
+"5476","CTSA","Medium","Enhanced",1,1
+"54802","TRIT1","Medium","Approved",1,1
+"54857","GDPD2",NA,NA,-1,-1
+"548596","CKMT1A","Not detected","Uncertain",-1,-1
+"54872","PIGG","Low","Uncertain",-1,0
+"54898","ELOVL2",NA,NA,-1,-1
+"549","AUH","Medium","Enhanced",1,1
+"54928","IMPAD1","Medium","Supported",1,1
+"54938","SARS2","Medium","Approved",1,1
+"54947","LPCAT2","Low","Enhanced",-1,0
+"54956","PARP16","Medium","Approved",1,1
+"54963","UCKL1","Low","Approved",-1,0
+"54965","PIGX","Not detected","Uncertain",-1,-1
+"5498","PPOX","Not detected","Uncertain",-1,-1
+"54981","NMRK1","Low","Approved",-1,0
+"54988","ACSM5","Medium","Uncertain",1,1
+"5499","PPP1CA","Medium","Approved",1,1
+"54995","OXSM","Medium","Enhanced",1,1
+"55","ACPP","Not detected","Enhanced",-1,-1
+"5500","PPP1CB","Low","Supported",-1,0
+"5501","PPP1CC","Medium","Uncertain",1,1
+"55039","TRMT12","Low","Approved",-1,0
+"55066","PDPR","High","Uncertain",2,2
+"5507","PPP1R3C","Medium","Uncertain",1,1
+"55089","SLC38A4",NA,NA,-1,-1
+"55093","WDYHV1","Medium","Approved",1,1
+"55117","SLC6A15","Not detected","Uncertain",-1,-1
+"55149","MTPAP","High","Approved",2,2
+"55157","DARS2","Not detected","Enhanced",-1,-1
+"55163","PNPO","Medium","Enhanced",1,1
+"55190","NUDT11","Low","Approved",-1,0
+"55191","NADSYN1","Medium","Approved",1,1
+"55209","SETD5","Medium","Approved",1,1
+"55217","TMLHE","Medium","Approved",1,1
+"55224","ETNK2","Low","Enhanced",-1,0
+"55229","PANK4",NA,NA,-1,-1
+"55244","SLC47A1","Low","Enhanced",-1,0
+"55256","ADI1","Medium","Approved",1,1
+"55268","ECHDC2","Not detected","Enhanced",-1,-1
+"55276","PGM2","Not detected","Uncertain",-1,-1
+"55277","FGGY",NA,NA,-1,-1
+"55293","UEVLD","High","Approved",2,2
+"55300","PI4K2B","Not detected","Approved",-1,-1
+"55301","OLAH","Not detected","Enhanced",-1,-1
+"55304","SPTLC3","Not detected","Enhanced",-1,-1
+"55312","RFK","Medium","Approved",1,1
+"55315","SLC29A3","Medium","Approved",1,1
+"55326","AGPAT5","Not detected","Approved",-1,-1
+"55331","ACER3","Not detected","Approved",-1,-1
+"55343","SLC35C1","Medium","Enhanced",1,1
+"55349","CHDH","Low","Enhanced",-1,0
+"55356","SLC22A15","High","Approved",2,2
+"55361","PI4K2A","Not detected","Approved",-1,-1
+"5538","PPT1","High","Supported",2,2
+"55454","CSGALNACT2","Medium","Approved",1,1
+"5550","PREP","Medium","Enhanced",1,1
+"55500","ETNK1","Medium","Approved",1,1
+"55501","CHST12","Medium","Approved",1,1
+"55512","SMPD3","Not detected","Approved",-1,-1
+"55529","TMEM55A","Medium","Approved",1,1
+"55577","NAGK","Low","Enhanced",-1,0
+"55586","MIOX","Not detected","Enhanced",-1,-1
+"55613","MTMR8",NA,NA,-1,-1
+"55621","TRMT1","Medium","Approved",1,1
+"55627","SMPD4","Medium","Approved",1,1
+"55630","SLC39A4",NA,NA,-1,-1
+"55650","PIGV",NA,NA,-1,-1
+"5566","PRKACA","Medium","Approved",1,1
+"55662","HIF1AN","Medium","Enhanced",1,1
+"5567","PRKACB","Low","Approved",-1,0
+"55676","SLC30A6","Low","Uncertain",-1,0
+"5568","PRKACG","Not detected","Supported",-1,-1
+"55683","KANSL3","Low","Approved",-1,0
+"55687","TRMU","High","Uncertain",2,2
+"55699","IARS2","Medium","Enhanced",1,1
+"55703","POLR3B","High","Supported",2,2
+"55711","FAR2","Low","Approved",-1,0
+"55718","POLR3E","Low","Approved",-1,0
+"55748","CNDP2","Not detected","Enhanced",-1,-1
+"55750","AGK","Medium","Supported",1,1
+"55753","OGDHL","Low","Enhanced",-1,0
+"55768","NGLY1","Medium","Approved",1,1
+"55790","CSGALNACT1",NA,NA,-1,-1
+"55808","ST6GALNAC1","Not detected","Uncertain",-1,-1
+"55811","ADCY10","Not detected","Approved",-1,-1
+"55821","ALLC",NA,NA,-1,-1
+"55825","PECR","High","Enhanced",2,2
+"55867","SLC22A11","Not detected","Approved",-1,-1
+"5587","PRKD1","Medium","Uncertain",1,1
+"55891","LENEP",NA,NA,-1,-1
+"55902","ACSS2","Medium","Approved",1,1
+"55907","CMAS","High","Supported",2,2
+"56052","ALG1","Low","Approved",-1,0
+"5625","PRODH","Medium","Uncertain",1,1
+"56261","GPCPD1","High","Uncertain",2,2
+"56267","CCBL2",NA,NA,-1,-1
+"56301","SLC7A10",NA,NA,-1,-1
+"5631","PRPS1","Not detected","Uncertain",-1,-1
+"56339","METTL3",NA,NA,-1,-1
+"5634","PRPS2","Not detected","Enhanced",-1,-1
+"56474","CTPS2","Low","Uncertain",-1,0
+"56548","CHST7","Not detected","Approved",-1,-1
+"56603","CYP26B1","Not detected","Uncertain",-1,-1
+"56606","SLC2A9","Not detected","Enhanced",-1,-1
+"56623","INPP5E","High","Approved",2,2
+"56624","ASAH2","Not detected","Supported",-1,-1
+"56655","POLE4","Low","Approved",-1,0
+"56829","ZC3HAV1","Medium","Approved",1,1
+"56848","SPHK2",NA,NA,-1,-1
+"56894","AGPAT3",NA,NA,-1,-1
+"56895","AGPAT4","High","Approved",2,2
+"56898","BDH2","Not detected","Enhanced",-1,-1
+"56903","PAPOLB",NA,NA,-1,-1
+"56910","STARD7","Medium","Supported",1,1
+"56913","C1GALT1","Medium","Enhanced",1,1
+"56922","MCCC1","High","Approved",2,2
+"56953","NT5M","Medium","Uncertain",1,1
+"56954","NIT2","Medium","Approved",1,1
+"56965","PARP6","Not detected","Approved",-1,-1
+"56985","ADPRM","Low","Approved",-1,0
+"56994","CHPT1","Low","Approved",-1,0
+"570","BAAT","Not detected","Supported",-1,-1
+"57016","AKR1B10","Not detected","Enhanced",-1,-1
+"57026","PDXP","Not detected","Approved",-1,-1
+"57030","SLC17A7","Not detected","Enhanced",-1,-1
+"57038","RARS2","Not detected","Uncertain",-1,-1
+"57084","SLC17A6","Not detected","Enhanced",-1,-1
+"57094","CPA6",NA,NA,-1,-1
+"57097","PARP11",NA,NA,-1,-1
+"57103","C12orf5",NA,NA,-1,-1
+"57104","PNPLA2",NA,NA,-1,-1
+"57107","PDSS2","Medium","Approved",1,1
+"57115","PGLYRP4",NA,NA,-1,-1
+"57127","RHBG","Not detected","Enhanced",-1,-1
+"57134","MAN1C1","Low","Uncertain",-1,0
+"57153","SLC44A2","Not detected","Approved",-1,-1
+"57171","DOLPP1","Low","Approved",-1,0
+"57176","VARS2","Medium","Approved",1,1
+"57181","SLC39A10","Low","Approved",-1,0
+"5723","PSPH","Low","Approved",-1,0
+"5728","PTEN","Not detected","Uncertain",-1,-1
+"57282","SLC4A10","Not detected","Supported",-1,-1
+"5730","PTGDS","Low","Approved",-1,0
+"57379","AICDA",NA,NA,-1,-1
+"5740","PTGIS","Low","Enhanced",-1,0
+"57406","ABHD6","Medium","Uncertain",1,1
+"57412","AS3MT","Medium","Enhanced",1,1
+"57419","SLC24A3","Low","Uncertain",-1,0
+"5742","PTGS1","Not detected","Enhanced",-1,-1
+"5743","PTGS2","Not detected","Approved",-1,-1
+"57468","SLC12A5","Not detected","Enhanced",-1,-1
+"57486","NLN","Low","Approved",-1,0
+"57505","AARS2","High","Approved",2,2
+"57519","STARD9","Medium","Uncertain",1,1
+"57546","PDP2","Medium","Approved",1,1
+"57571","CARNS1","Not detected","Enhanced",-1,-1
+"57595","PDZD4","Not detected","Enhanced",-1,-1
+"57657","HCN3","Medium","Approved",1,1
+"57678","GPAM","Not detected","Approved",-1,-1
+"57704","GBA2","Medium","Approved",1,1
+"57733","GBA3",NA,NA,-1,-1
+"57786","RBAK",NA,NA,-1,-1
+"57804","POLD4",NA,NA,-1,-1
+"57818","G6PC2",NA,NA,-1,-1
+"57834","CYP4F11","Not detected","Enhanced",-1,-1
+"57835","SLC4A5","Not detected","Approved",-1,-1
+"5805","PTS","Low","Uncertain",-1,0
+"5810","RAD1","Medium","Approved",1,1
+"5825","ABCD3","High","Enhanced",2,2
+"5831","PYCR1","Medium","Approved",1,1
+"5832","ALDH18A1","Medium","Approved",1,1
+"5833","PCYT2","Low","Enhanced",-1,0
+"5834","PYGB","Medium","Approved",1,1
+"5836","PYGL","Not detected","Enhanced",-1,-1
+"5837","PYGM","Not detected","Enhanced",-1,-1
+"58478","ENOPH1","Not detected","Enhanced",-1,-1
+"58488","PCTP","High","Approved",2,2
+"58497","PRUNE",NA,NA,-1,-1
+"58510","PRODH2","Not detected","Approved",-1,-1
+"5859","QARS","Medium","Enhanced",1,1
+"586","BCAT1",NA,NA,-1,-1
+"5860","QDPR","Not detected","Enhanced",-1,-1
+"587","BCAT2","Medium","Enhanced",1,1
+"5883","RAD9A","Low","Enhanced",-1,0
+"590","BCHE","Low","Approved",-1,0
+"5917","RARS","Not detected","Approved",-1,-1
+"59272","ACE2","Not detected","Enhanced",-1,-1
+"593","BCKDHA","High","Supported",2,2
+"59344","ALOXE3","Not detected","Enhanced",-1,-1
+"594","BCKDHB","Low","Approved",-1,0
+"5947","RBP1","Not detected","Enhanced",-1,-1
+"5948","RBP2","Not detected","Enhanced",-1,-1
+"5949","RBP3","Not detected","Supported",-1,-1
+"5959","RDH5",NA,NA,-1,-1
+"5973","RENBP","Not detected","Enhanced",-1,-1
+"5980","REV3L","Low","Uncertain",-1,0
+"5985","RFC5","Medium","Supported",1,1
+"6005","RHAG","Not detected","Approved",-1,-1
+"6011","GRK1","Not detected","Enhanced",-1,-1
+"6017","RLBP1","Not detected","Supported",-1,-1
+"60386","SLC25A19",NA,NA,-1,-1
+"60481","ELOVL5","Not detected","Enhanced",-1,-1
+"60482","SLC5A7",NA,NA,-1,-1
+"60487","TRMT11",NA,NA,-1,-1
+"60490","PPCDC","Medium","Approved",1,1
+"60495","HPSE2","Medium","Uncertain",1,1
+"60496","AASDHPPT","Low","Approved",-1,0
+"6051","RNPEP","Not detected","Approved",-1,-1
+"60559","SPCS3","Low","Approved",-1,0
+"606495","CYB5RL","Medium","Approved",1,1
+"6120","RPE","Low","Approved",-1,0
+"6121","RPE65",NA,NA,-1,-1
+"6184","RPN1","Low","Enhanced",-1,0
+"6185","RPN2","Low","Enhanced",-1,0
+"622","BDH1","Medium","Enhanced",1,1
+"6240","RRM1","Medium","Enhanced",1,1
+"6241","RRM2","Not detected","Enhanced",-1,-1
+"6296","ACSM3","Medium","Uncertain",1,1
+"6301","SARS","Low","Uncertain",-1,0
+"6303","SAT1","Medium","Supported",1,1
+"6307","MSMO1","Medium","Approved",1,1
+"6309","SC5D","Medium","Approved",1,1
+"6319","SCD","High","Uncertain",2,2
+"635","BHMT","Not detected","Enhanced",-1,-1
+"6382","SDC1","Not detected","Approved",-1,-1
+"63826","SRR","Low","Approved",-1,0
+"6389","SDHA","High","Enhanced",2,2
+"63891","RNF123","Low","Approved",-1,0
+"6390","SDHB","High","Enhanced",2,2
+"6391","SDHC",NA,NA,-1,-1
+"6392","SDHD","High","Approved",2,2
+"64064","OXCT2","Not detected","Enhanced",-1,-1
+"64077","LHPP","Not detected","Enhanced",-1,-1
+"64078","SLC28A3","Not detected","Approved",-1,-1
+"64080","RBKS","Not detected","Enhanced",-1,-1
+"64087","MCCC2","High","Enhanced",2,2
+"64116","SLC39A8","Low","Approved",-1,0
+"64122","FN3K","Not detected","Enhanced",-1,-1
+"64131","XYLT1","Medium","Approved",1,1
+"64132","XYLT2",NA,NA,-1,-1
+"641371","ACOT1","Medium","Approved",1,1
+"641372","ACOT6",NA,NA,-1,-1
+"64146","PDF","High","Approved",2,2
+"641649","TMEM91",NA,NA,-1,-1
+"64174","DPEP2","Low","Approved",-1,0
+"64180","DPEP3","Not detected","Enhanced",-1,-1
+"64240","ABCG5",NA,NA,-1,-1
+"64241","ABCG8","Medium","Uncertain",1,1
+"643853","TMPPE","Medium","Uncertain",1,1
+"644","BLVRA","Medium","Approved",1,1
+"64419","MTMR14","Medium","Approved",1,1
+"64425","POLR1E","Medium","Supported",1,1
+"6448","SGSH","Medium","Enhanced",1,1
+"64499","TPSB2","Not detected","Supported",-1,-1
+"645","BLVRB","Low","Enhanced",-1,0
+"64577","ALDH8A1","Not detected","Enhanced",-1,-1
+"64579","NDST4",NA,NA,-1,-1
+"645840","TXNRD3NB",NA,NA,-1,-1
+"64600","PLA2G2F",NA,NA,-1,-1
+"646480","FABP9","Not detected","Approved",-1,-1
+"646486","FABP12","Not detected","Approved",-1,-1
+"646625","URAD",NA,NA,-1,-1
+"6470","SHMT1","Not detected","Approved",-1,-1
+"64711","HS3ST6",NA,NA,-1,-1
+"64714","PDIA2","Not detected","Enhanced",-1,-1
+"6472","SHMT2","Not detected","Enhanced",-1,-1
+"64748","LPPR2",NA,NA,-1,-1
+"6476","SI","Not detected","Enhanced",-1,-1
+"64761","PARP12","Not detected","Approved",-1,-1
+"64768","IPPK","Low","Uncertain",-1,0
+"64772","ENGASE","Medium","Approved",1,1
+"64781","CERK",NA,NA,-1,-1
+"6480","ST6GAL1","Not detected","Supported",-1,-1
+"64802","NMNAT1","Low","Approved",-1,0
+"64816","CYP3A43","Not detected","Supported",-1,-1
+"6482","ST3GAL1","Medium","Approved",1,1
+"6483","ST3GAL2","Low","Approved",-1,0
+"64834","ELOVL1","Medium","Approved",1,1
+"6484","ST3GAL4","Not detected","Approved",-1,-1
+"64841","GNPNAT1","Not detected","Approved",-1,-1
+"64849","SLC13A3","Not detected","Enhanced",-1,-1
+"64850","ETNPPL","Not detected","Approved",-1,-1
+"64852","TUT1",NA,NA,-1,-1
+"6487","ST3GAL3","Medium","Uncertain",1,1
+"6489","ST8SIA1","Medium","Approved",1,1
+"64895","PAPOLG","Medium","Approved",1,1
+"649","BMP1","High","Enhanced",2,2
+"64900","LPIN3","Not detected","Approved",-1,-1
+"64902","AGXT2","Not detected","Enhanced",-1,-1
+"65010","SLC26A6","Not detected","Approved",-1,-1
+"6505","SLC1A1","Medium","Approved",1,1
+"6506","SLC1A2","Not detected","Enhanced",-1,-1
+"6507","SLC1A3","Not detected","Enhanced",-1,-1
+"6508","SLC4A3",NA,NA,-1,-1
+"6509","SLC1A4","Low","Approved",-1,0
+"6510","SLC1A5","Medium","Enhanced",1,1
+"6511","SLC1A6","Not detected","Enhanced",-1,-1
+"6512","SLC1A7","Not detected","Supported",-1,-1
+"6513","SLC2A1","Not detected","Enhanced",-1,-1
+"6514","SLC2A2","Not detected","Enhanced",-1,-1
+"6515","SLC2A3","Not detected","Approved",-1,-1
+"6517","SLC2A4","High","Enhanced",2,2
+"6518","SLC2A5","Not detected","Enhanced",-1,-1
+"6519","SLC3A1","Not detected","Enhanced",-1,-1
+"6520","SLC3A2","Not detected","Enhanced",-1,-1
+"6521","SLC4A1","Not detected","Enhanced",-1,-1
+"6522","SLC4A2","Low","Enhanced",-1,0
+"65220","NADK","Medium","Uncertain",1,1
+"6523","SLC5A1","Not detected","Enhanced",-1,-1
+"6524","SLC5A2","Not detected","Enhanced",-1,-1
+"6526","SLC5A3",NA,NA,-1,-1
+"65263","PYCRL","Not detected","Uncertain",-1,-1
+"6528","SLC5A5","Not detected","Enhanced",-1,-1
+"6529","SLC6A1","Not detected","Enhanced",-1,-1
+"6530","SLC6A2","Not detected","Enhanced",-1,-1
+"6531","SLC6A3","Not detected","Supported",-1,-1
+"6532","SLC6A4",NA,NA,-1,-1
+"6533","SLC6A6","Low","Enhanced",-1,0
+"6534","SLC6A7",NA,NA,-1,-1
+"6535","SLC6A8",NA,NA,-1,-1
+"6536","SLC6A9","Medium","Uncertain",1,1
+"653689","GSTT2B",NA,NA,-1,-1
+"6538","SLC6A11","Not detected","Supported",-1,-1
+"6539","SLC6A12","Medium","Approved",1,1
+"6540","SLC6A13",NA,NA,-1,-1
+"6541","SLC7A1","Low","Approved",-1,0
+"6542","SLC7A2",NA,NA,-1,-1
+"6543","SLC8A2","Not detected","Enhanced",-1,-1
+"654364","NME1-NME2","Not detected","Approved",-1,-1
+"6546","SLC8A1","Medium","Uncertain",1,1
+"6547","SLC8A3",NA,NA,-1,-1
+"6548","SLC9A1","Low","Enhanced",-1,0
+"6549","SLC9A2","Not detected","Approved",-1,-1
+"6550","SLC9A3","Low","Enhanced",-1,0
+"6553","SLC9A5",NA,NA,-1,-1
+"6554","SLC10A1","Not detected","Approved",-1,-1
+"6556","SLC11A1","Not detected","Uncertain",-1,-1
+"6557","SLC12A1","Not detected","Enhanced",-1,-1
+"6558","SLC12A2","Low","Approved",-1,0
+"6559","SLC12A3","Not detected","Enhanced",-1,-1
+"6560","SLC12A4","Medium","Approved",1,1
+"6561","SLC13A1","Not detected","Enhanced",-1,-1
+"6563","SLC14A1","Medium","Supported",1,1
+"6564","SLC15A1","Not detected","Uncertain",-1,-1
+"6565","SLC15A2",NA,NA,-1,-1
+"6566","SLC16A1","Medium","Enhanced",1,1
+"6567","SLC16A2",NA,NA,-1,-1
+"6568","SLC17A1",NA,NA,-1,-1
+"6569","SLC34A1","Not detected","Approved",-1,-1
+"6570","SLC18A1","Not detected","Enhanced",-1,-1
+"6571","SLC18A2","Not detected","Approved",-1,-1
+"6572","SLC18A3",NA,NA,-1,-1
+"6573","SLC19A1","Not detected","Approved",-1,-1
+"6574","SLC20A1","Medium","Approved",1,1
+"6575","SLC20A2","Medium","Approved",1,1
+"6576","SLC25A1",NA,NA,-1,-1
+"6578","SLCO2A1","Low","Enhanced",-1,0
+"6579","SLCO1A2",NA,NA,-1,-1
+"6580","SLC22A1","Medium","Approved",1,1
+"6581","SLC22A3","Medium","Approved",1,1
+"6582","SLC22A2","Not detected","Enhanced",-1,-1
+"6583","SLC22A4","Not detected","Approved",-1,-1
+"6584","SLC22A5",NA,NA,-1,-1
+"65985","AACS","Medium","Approved",1,1
+"66002","CYP4F12","Low","Approved",-1,0
+"66035","SLC2A11","Not detected","Uncertain",-1,-1
+"6609","SMPD1",NA,NA,-1,-1
+"661","POLR3D","Medium","Enhanced",1,1
+"6610","SMPD2","High","Uncertain",2,2
+"6611","SMS","Low","Approved",-1,0
+"6646","SOAT1","Not detected","Enhanced",-1,-1
+"6647","SOD1","Low","Enhanced",-1,0
+"6648","SOD2","Medium","Supported",1,1
+"6649","SOD3","Low","Supported",-1,0
+"6652","SORD","Not detected","Enhanced",-1,-1
+"6675","UAP1","Medium","Approved",1,1
+"6677","SPAM1","Not detected","Enhanced",-1,-1
+"669","BPGM","Low","Enhanced",-1,0
+"6697","SPR","Medium","Uncertain",1,1
+"6713","SQLE","Medium","Enhanced",1,1
+"6715","SRD5A1","Not detected","Approved",-1,-1
+"6716","SRD5A2",NA,NA,-1,-1
+"6718","AKR1D1","Not detected","Enhanced",-1,-1
+"6723","SRM","High","Approved",2,2
+"6748","SSR4","Not detected","Enhanced",-1,-1
+"6770","STAR","Not detected","Enhanced",-1,-1
+"6783","SULT1E1","Not detected","Enhanced",-1,-1
+"6785","ELOVL4",NA,NA,-1,-1
+"6799","SULT1A2","Low","Supported",-1,0
+"6817","SULT1A1","Low","Supported",-1,0
+"6818","SULT1A3","Not detected","Supported",-1,-1
+"6819","SULT1C2","Not detected","Approved",-1,-1
+"6820","SULT2B1","Not detected","Approved",-1,-1
+"6821","SUOX","Medium","Approved",1,1
+"6822","SULT2A1","Not detected","Enhanced",-1,-1
+"683","BST1","Low","Uncertain",-1,0
+"686","BTD","Low","Uncertain",-1,0
+"6880","TAF9",NA,NA,-1,-1
+"6888","TALDO1",NA,NA,-1,-1
+"6897","TARS","Low","Approved",-1,0
+"6898","TAT",NA,NA,-1,-1
+"6916","TBXAS1","Not detected","Enhanced",-1,-1
+"6999","TDO2","Not detected","Uncertain",-1,-1
+"7047","TGM4","Not detected","Enhanced",-1,-1
+"7051","TGM1","Not detected","Enhanced",-1,-1
+"7052","TGM2","Medium","Enhanced",1,1
+"7053","TGM3","Not detected","Enhanced",-1,-1
+"7054","TH","Not detected","Enhanced",-1,-1
+"7064","THOP1","Medium","Uncertain",1,1
+"7083","TK1","Not detected","Enhanced",-1,-1
+"7084","TK2","Low","Uncertain",-1,0
+"7086","TKT","Low","Enhanced",-1,0
+"7108","TM7SF2","Low","Approved",-1,0
+"7166","TPH1","Medium","Enhanced",1,1
+"7167","TPI1","Medium","Uncertain",1,1
+"7172","TPMT","Low","Approved",-1,0
+"7173","TPO","Not detected","Enhanced",-1,-1
+"7177","TPSAB1","Not detected","Supported",-1,-1
+"7226","TRPM2","Not detected","Enhanced",-1,-1
+"7263","TST","Low","Enhanced",-1,0
+"7264","TSTA3","Low","Approved",-1,0
+"728441","GGT2","Not detected","Supported",-1,-1
+"728637","LOC728637",NA,NA,-1,-1
+"729020","RPEL1","Not detected","Approved",-1,-1
+"729359","PLIN4","Not detected","Enhanced",-1,-1
+"7296","TXNRD1","Medium","Approved",1,1
+"7298","TYMS","Low","Enhanced",-1,0
+"7299","TYR","Not detected","Enhanced",-1,-1
+"7306","TYRP1","Not detected","Enhanced",-1,-1
+"7350","UCP1",NA,NA,-1,-1
+"7351","UCP2","Medium","Approved",1,1
+"7352","UCP3","Medium","Enhanced",1,1
+"7355","SLC35A2","Low","Approved",-1,0
+"7357","UGCG","Low","Approved",-1,0
+"7358","UGDH","Not detected","Enhanced",-1,-1
+"7360","UGP2","Medium","Enhanced",1,1
+"7363","UGT2B4","Not detected","Enhanced",-1,-1
+"7364","UGT2B7",NA,NA,-1,-1
+"7367","UGT2B17","Not detected","Supported",-1,-1
+"7368","UGT8","Medium","Approved",1,1
+"7371","UCK2",NA,NA,-1,-1
+"7372","UMPS",NA,NA,-1,-1
+"7378","UPP1","Not detected","Enhanced",-1,-1
+"7386","UQCRFS1","High","Enhanced",2,2
+"7389","UROD","Not detected","Uncertain",-1,-1
+"7390","UROS","Low","Approved",-1,0
+"7407","VARS","Not detected","Approved",-1,-1
+"7453","WARS",NA,NA,-1,-1
+"747","DAGLA","Not detected","Approved",-1,-1
+"7498","XDH","Not detected","Supported",-1,-1
+"752014","CEMP1","Low","Approved",-1,0
+"755","C21orf2","Medium","Supported",1,1
+"759","CA1","Not detected","Enhanced",-1,-1
+"760","CA2","Not detected","Enhanced",-1,-1
+"761","CA3","Not detected","Enhanced",-1,-1
+"762","CA4","Not detected","Enhanced",-1,-1
+"763","CA5A",NA,NA,-1,-1
+"765","CA6","Not detected","Enhanced",-1,-1
+"766","CA7",NA,NA,-1,-1
+"767","CA8","Not detected","Supported",-1,-1
+"768","CA9","Not detected","Enhanced",-1,-1
+"771","CA12","Not detected","Enhanced",-1,-1
+"7779","SLC30A1","Low","Uncertain",-1,0
+"7837","PXDN","Low","Approved",-1,0
+"7841","MOGS","Not detected","Approved",-1,-1
+"7862","BRPF1","Low","Enhanced",-1,0
+"788","SLC25A20","Medium","Approved",1,1
+"790","CAD","Not detected","Supported",-1,-1
+"79001","VKORC1","Not detected","Approved",-1,-1
+"79017","GGCT","Medium","Approved",1,1
+"79053","ALG8","Medium","Approved",1,1
+"79071","ELOVL6","Low","Uncertain",-1,0
+"79077","DCTPP1","Not detected","Uncertain",-1,-1
+"79087","ALG12","Medium","Approved",1,1
+"7915","ALDH5A1","Medium","Enhanced",1,1
+"79158","GNPTAB","Medium","Approved",1,1
+"79159","NOL12","Medium","Uncertain",1,1
+"79178","THTPA","Medium","Approved",1,1
+"7922","SLC39A7","Medium","Approved",1,1
+"7923","HSD17B8","Medium","Enhanced",1,1
+"79369","B3GNT4","Low","Uncertain",-1,0
+"7941","PLA2G7",NA,NA,-1,-1
+"79411","GLB1L","Not detected","Enhanced",-1,-1
+"79567","FAM65A","Not detected","Uncertain",-1,-1
+"79586","CHPF","Medium","Approved",1,1
+"79587","CARS2","Low","Uncertain",-1,0
+"79595","SAP130",NA,NA,-1,-1
+"79603","CERS4","Low","Uncertain",-1,0
+"79611","ACSS3","Not detected","Approved",-1,-1
+"79644","SRD5A3","Medium","Uncertain",1,1
+"79646","PANK3",NA,NA,-1,-1
+"79660","PPP1R3B","Medium","Approved",1,1
+"79668","PARP8","Low","Approved",-1,0
+"79670","ZCCHC6","Medium","Approved",1,1
+"79672","FN3KRP","Medium","Approved",1,1
+"79691","QTRTD1",NA,NA,-1,-1
+"79707","NOL9",NA,NA,-1,-1
+"79709","COLGALT1","Not detected","Approved",-1,-1
+"79717","PPCS","Medium","Approved",1,1
+"79731","NARS2","Medium","Supported",1,1
+"79751","SLC25A22","Not detected","Approved",-1,-1
+"79796","ALG9","High","Approved",2,2
+"79814","AGMAT","Not detected","Enhanced",-1,-1
+"79837","PIP4K2C","Medium","Approved",1,1
+"79868","ALG13","Low","Approved",-1,0
+"79888","LPCAT1","Medium","Enhanced",1,1
+"79896","THNSL1",NA,NA,-1,-1
+"79901","CYBRD1","Not detected","Approved",-1,-1
+"79903","NAA60","Low","Approved",-1,0
+"79944","L2HGDH","Medium","Approved",1,1
+"79947","DHDDS","Low","Uncertain",-1,0
+"79948","LPPR3",NA,NA,-1,-1
+"79966","SCD5","Medium","Uncertain",1,1
+"79993","ELOVL7","Low","Approved",-1,0
+"80024","SLC8B1","Not detected","Approved",-1,-1
+"80025","PANK2","Not detected","Approved",-1,-1
+"80055","PGAP1",NA,NA,-1,-1
+"801","CALM1","Not detected","Supported",-1,-1
+"80142","PTGES2","High","Approved",2,2
+"80146","UXS1","Low","Uncertain",-1,0
+"80150","ASRGL1","Not detected","Enhanced",-1,-1
+"80155","NAA15","Medium","Approved",1,1
+"80162","ATHL1",NA,NA,-1,-1
+"80168","MOGAT2","Medium","Uncertain",1,1
+"80201","HKDC1","Not detected","Approved",-1,-1
+"80222","TARS2","Medium","Approved",1,1
+"80235","PIGZ","Low","Approved",-1,0
+"80270","HSD3B7","Low","Uncertain",-1,0
+"80271","ITPKC","Medium","Approved",1,1
+"8029","CUBN","Not detected","Enhanced",-1,-1
+"80308","FLAD1","Medium","Approved",1,1
+"80324","PUS1","Medium","Approved",1,1
+"80339","PNPLA3","Not detected","Approved",-1,-1
+"8034","SLC25A16",NA,NA,-1,-1
+"80347","COASY","Medium","Approved",1,1
+"80351","TNKS2",NA,NA,-1,-1
+"805","CALM2","Low","Approved",-1,0
+"8061","FOSL1","Not detected","Uncertain",-1,-1
+"80704","SLC19A3","Medium","Approved",1,1
+"80724","ACAD10",NA,NA,-1,-1
+"80736","SLC44A4","Not detected","Enhanced",-1,-1
+"80765","STARD5","Medium","Approved",1,1
+"808","CALM3","Not detected","Approved",-1,-1
+"80864","EGFL8","High","Uncertain",2,2
+"80896","NPL",NA,NA,-1,-1
+"81031","SLC2A10","High","Approved",2,2
+"8140","SLC7A5","High","Approved",2,2
+"81490","PTDSS2","Low","Approved",-1,0
+"81537","SGPP1","Medium","Approved",1,1
+"81539","SLC38A1","Not detected","Uncertain",-1,-1
+"81579","PLA2G12A","Not detected","Approved",-1,-1
+"81616","ACSBG2","Not detected","Enhanced",-1,-1
+"81627","TRMT1L","Not detected","Uncertain",-1,-1
+"8170","SLC14A2",NA,NA,-1,-1
+"81849","ST6GALNAC5",NA,NA,-1,-1
+"81855","SFXN3","Medium","Approved",1,1
+"81888","HYI","Medium","Uncertain",1,1
+"81890","QTRT1","Low","Approved",-1,0
+"81894","SLC25A28",NA,NA,-1,-1
+"825","CAPN3","Low","Enhanced",-1,0
+"8260","NAA10","Not detected","Supported",-1,-1
+"8277","TKTL1","Not detected","Enhanced",-1,-1
+"8288","EPX","Not detected","Approved",-1,-1
+"8309","ACOX2","Medium","Enhanced",1,1
+"8310","ACOX3","Not detected","Uncertain",-1,-1
+"833","CARS","Not detected","Enhanced",-1,-1
+"83401","ELOVL3","Not detected","Supported",-1,-1
+"83440","ADPGK","Low","Approved",-1,0
+"83549","UCK1","Low","Approved",-1,0
+"83594","NUDT12","Medium","Supported",1,1
+"83666","PARP9",NA,NA,-1,-1
+"83697","SLC4A9",NA,NA,-1,-1
+"8372","HYAL3",NA,NA,-1,-1
+"83733","SLC25A18",NA,NA,-1,-1
+"8382","NME5","Not detected","Approved",-1,-1
+"83875","BCO2","Medium","Uncertain",1,1
+"83884","SLC25A2",NA,NA,-1,-1
+"8394","PIP5K1A","Not detected","Approved",-1,-1
+"8395","PIP5K1B","Low","Uncertain",-1,0
+"8396","PIP4K2B","Not detected","Approved",-1,-1
+"8398","PLA2G6","Low","Approved",-1,0
+"8399","PLA2G10",NA,NA,-1,-1
+"84002","B3GNT5","Low","Uncertain",-1,0
+"8402","SLC25A11","High","Approved",2,2
+"84076","TKTL2",NA,NA,-1,-1
+"84102","SLC41A2","Medium","Approved",1,1
+"84105","PCBD2","Medium","Uncertain",1,1
+"84126","ATRIP","High","Approved",2,2
+"84129","ACAD11","Medium","Enhanced",1,1
+"84172","POLR1B",NA,NA,-1,-1
+"84188","FAR1","Medium","Approved",1,1
+"8424","BBOX1","Not detected","Enhanced",-1,-1
+"84245","MRI1","Not detected","Approved",-1,-1
+"84264","HAGHL","Not detected","Approved",-1,-1
+"84265","POLR3GL","Medium","Uncertain",1,1
+"84274","COQ5","Medium","Approved",1,1
+"84284","NTPCR","Medium","Uncertain",1,1
+"84343","HPS3","Medium","Approved",1,1
+"8435","SOAT2",NA,NA,-1,-1
+"8443","GNPAT",NA,NA,-1,-1
+"8446","DUSP11",NA,NA,-1,-1
+"84513","PPAPDC1B",NA,NA,-1,-1
+"84532","ACSS1","High","Enhanced",2,2
+"84569","LYZL1",NA,NA,-1,-1
+"8459","TPST2","Low","Approved",-1,0
+"8460","TPST1","Low","Approved",-1,0
+"84618","NT5C1A","High","Supported",2,2
+"84620","ST6GAL2",NA,NA,-1,-1
+"84647","PLA2G12B","Not detected","Approved",-1,-1
+"84649","DGAT2",NA,NA,-1,-1
+"84679","SLC9A7","Low","Approved",-1,0
+"84693","MCEE",NA,NA,-1,-1
+"847","CAT","Not detected","Enhanced",-1,-1
+"84701","COX4I2",NA,NA,-1,-1
+"84706","GPT2","Medium","Approved",1,1
+"84720","PIGO",NA,NA,-1,-1
+"84735","CNDP1","Not detected","Enhanced",-1,-1
+"84779","NAA11","Not detected","Approved",-1,-1
+"84803","AGPAT9",NA,NA,-1,-1
+"84812","PLCD4","Not detected","Enhanced",-1,-1
+"84814","PPAPDC3",NA,NA,-1,-1
+"84875","PARP10","Low","Approved",-1,0
+"84881","RPUSD4","Medium","Approved",1,1
+"84889","SLC7A3","Not detected","Approved",-1,-1
+"84890","ADO","Medium","Approved",1,1
+"84912","SLC35B4","Medium","Approved",1,1
+"84920","ALG10","Medium","Approved",1,1
+"84992","PIGY",NA,NA,-1,-1
+"85007","PHYKPL","Medium","Approved",1,1
+"8501","SLC43A1","Medium","Enhanced",1,1
+"8509","NDST2","Low","Approved",-1,0
+"8513","LIPF","Not detected","Enhanced",-1,-1
+"8525","DGKZ","Low","Supported",-1,0
+"8526","DGKE","Medium","Approved",1,1
+"8527","DGKD","Low","Approved",-1,0
+"8528","DDO","Medium","Enhanced",1,1
+"8529","CYP4F2","Not detected","Supported",-1,-1
+"85320","ABCC11","Medium","Uncertain",1,1
+"8534","CHST1",NA,NA,-1,-1
+"85365","ALG2","Low","Approved",-1,0
+"85366","MYLK2","Not detected","Enhanced",-1,-1
+"8540","AGPS","Not detected","Supported",-1,-1
+"85413","SLC22A16","Medium","Uncertain",1,1
+"85465","EPT1",NA,NA,-1,-1
+"8560","DEGS1",NA,NA,-1,-1
+"8564","KMO","Not detected","Enhanced",-1,-1
+"8565","YARS","Low","Enhanced",-1,0
+"8566","PDXK","Not detected","Approved",-1,-1
+"8574","AKR7A2","Low","Enhanced",-1,0
+"8604","SLC25A12","High","Enhanced",2,2
+"8605","PLA2G4C","Medium","Approved",1,1
+"8608","RDH16","Not detected","Enhanced",-1,-1
+"8611","PPAP2A",NA,NA,-1,-1
+"8612","PPAP2C",NA,NA,-1,-1
+"8613","PPAP2B",NA,NA,-1,-1
+"8630","HSD17B6","Not detected","Enhanced",-1,-1
+"8634","RTCA","Not detected","Uncertain",-1,-1
+"8637","EIF4EBP3","Medium","Uncertain",1,1
+"8639","AOC3","Not detected","Enhanced",-1,-1
+"8644","AKR1C3","Not detected","Enhanced",-1,-1
+"8647","ABCB11","Not detected","Enhanced",-1,-1
+"8654","PDE5A","Medium","Approved",1,1
+"8658","TNKS","Medium","Approved",1,1
+"8659","ALDH4A1","Medium","Enhanced",1,1
+"8671","SLC4A4","Not detected","Enhanced",-1,-1
+"8681","JMJD7-PLA2G4B","Low","Uncertain",-1,0
+"8692","HYAL2","Not detected","Uncertain",-1,-1
+"8694","DGAT1","Low","Enhanced",-1,0
+"8702","B4GALT4","Low","Approved",-1,0
+"8703","B4GALT3","Not detected","Approved",-1,-1
+"8704","B4GALT2","Not detected","Enhanced",-1,-1
+"8705","B3GALT4","Low","Approved",-1,0
+"8706","B3GALNT1",NA,NA,-1,-1
+"8707","B3GALT2",NA,NA,-1,-1
+"8708","B3GALT1",NA,NA,-1,-1
+"8714","ABCC3","Low","Enhanced",-1,0
+"87178","PNPT1","Medium","Supported",1,1
+"873","CBR1","Not detected","Approved",-1,-1
+"8731","RNMT","Medium","Approved",1,1
+"8732","RNGTT","High","Approved",2,2
+"8733","GPAA1",NA,NA,-1,-1
+"874","CBR3","Medium","Uncertain",1,1
+"875","CBS","Not detected","Supported",-1,-1
+"8760","CDS2","Medium","Approved",1,1
+"8776","MTMR1","Low","Approved",-1,0
+"87769","GGACT","Not detected","Enhanced",-1,-1
+"8789","FBP2","Medium","Uncertain",1,1
+"8790","FPGT",NA,NA,-1,-1
+"8800","PEX11A",NA,NA,-1,-1
+"8801","SUCLG2","High","Enhanced",2,2
+"8802","SUCLG1","Medium","Enhanced",1,1
+"8803","SUCLA2","Medium","Enhanced",1,1
+"8813","DPM1","High","Approved",2,2
+"8818","DPM2","Medium","Approved",1,1
+"8821","INPP4B","Medium","Approved",1,1
+"8824","CES2","Low","Enhanced",-1,0
+"883","CCBL1",NA,NA,-1,-1
+"8833","GMPS",NA,NA,-1,-1
+"8836","GGH","Medium","Approved",1,1
+"8854","ALDH1A2","Medium","Approved",1,1
+"8867","SYNJ1","Not detected","Enhanced",-1,-1
+"8869","ST3GAL5","Medium","Uncertain",1,1
+"8871","SYNJ2","Medium","Approved",1,1
+"8875","VNN2",NA,NA,-1,-1
+"8876","VNN1","Not detected","Approved",-1,-1
+"8877","SPHK1","Low","Uncertain",-1,0
+"8879","SGPL1","Low","Enhanced",-1,0
+"8884","SLC5A6","Not detected","Approved",-1,-1
+"8898","MTMR2","Not detected","Approved",-1,-1
+"8908","GYG2","Not detected","Enhanced",-1,-1
+"8942","KYNU","Low","Enhanced",-1,0
+"8972","MGAM","Not detected","Enhanced",-1,-1
+"8974","P4HA2","Low","Enhanced",-1,0
+"8985","PLOD3","Not detected","Uncertain",-1,-1
+"89869","PLCZ1",NA,NA,-1,-1
+"89872","AQP10","Not detected","Enhanced",-1,-1
+"89874","SLC25A21",NA,NA,-1,-1
+"8992","ATP6V0E1",NA,NA,-1,-1
+"8993","PGLYRP1","Not detected","Enhanced",-1,-1
+"9","NAT1","Medium","Approved",1,1
+"9016","SLC25A14",NA,NA,-1,-1
+"90161","HS6ST2",NA,NA,-1,-1
+"9023","CH25H",NA,NA,-1,-1
+"90423","ATP6V1E2",NA,NA,-1,-1
+"9056","SLC7A7","Low","Enhanced",-1,0
+"9057","SLC7A6","Medium","Uncertain",1,1
+"9058","SLC13A2","Not detected","Enhanced",-1,-1
+"9060","PAPSS2",NA,NA,-1,-1
+"9061","PAPSS1","Low","Approved",-1,0
+"90627","STARD13","Low","Enhanced",-1,0
+"90701","SEC11C","Not detected","Approved",-1,-1
+"90809","TMEM55B","High","Approved",2,2
+"9091","PIGQ","Medium","Approved",1,1
+"91012","CERS5","Not detected","Approved",-1,-1
+"9104","RGN","Not detected","Enhanced",-1,-1
+"9107","MTMR6",NA,NA,-1,-1
+"9108","MTMR7",NA,NA,-1,-1
+"9114","ATP6V0D1","Low","Uncertain",-1,0
+"91179","SCARF2","Not detected","Approved",-1,-1
+"9120","SLC16A6","Medium","Uncertain",1,1
+"9121","SLC16A5",NA,NA,-1,-1
+"9122","SLC16A4","Medium","Approved",1,1
+"91227","GGTLC2",NA,NA,-1,-1
+"9123","SLC16A3","Medium","Approved",1,1
+"91373","UAP1L1","High","Approved",2,2
+"9152","SLC6A5",NA,NA,-1,-1
+"9153","SLC28A2","Not detected","Enhanced",-1,-1
+"9154","SLC28A1","Not detected","Enhanced",-1,-1
+"9162","DGKI",NA,NA,-1,-1
+"91703","ACY3","Not detected","Enhanced",-1,-1
+"91734","IDI2",NA,NA,-1,-1
+"91807","MYLK3","High","Enhanced",2,2
+"9187","SLC24A1","Not detected","Supported",-1,-1
+"9194","SLC16A7","Not detected","Approved",-1,-1
+"9197","SLC33A1","Medium","Uncertain",1,1
+"9200","PTPLA",NA,NA,-1,-1
+"92086","GGTLC1",NA,NA,-1,-1
+"9217","VAPB","Medium","Supported",1,1
+"9218","VAPA","Low","Approved",-1,0
+"9227","LRAT",NA,NA,-1,-1
+"92292","GLYATL1","Not detected","Supported",-1,-1
+"92370","PXYLP1","High","Approved",2,2
+"9245","GCNT3","Not detected","Enhanced",-1,-1
+"92483","LDHAL6B","Not detected","Enhanced",-1,-1
+"9249","DHRS3","High","Supported",2,2
+"92579","G6PC3",NA,NA,-1,-1
+"92745","SLC38A5","Not detected","Approved",-1,-1
+"9276","COPB2","Medium","Approved",1,1
+"92935","MARS2","Medium","Uncertain",1,1
+"9296","ATP6V1F","Low","Enhanced",-1,0
+"93010","B3GNT7","Not detected","Enhanced",-1,-1
+"93034","NT5C1B",NA,NA,-1,-1
+"93100","NAPRT","Not detected","Enhanced",-1,-1
+"93183","PIGM",NA,NA,-1,-1
+"9333","TGM5",NA,NA,-1,-1
+"9334","B4GALT5",NA,NA,-1,-1
+"9348","NDST3","Not detected","Uncertain",-1,-1
+"93492","TPTE2",NA,NA,-1,-1
+"9356","SLC22A6","Not detected","Enhanced",-1,-1
+"9365","KL",NA,NA,-1,-1
+"93650","ACPT",NA,NA,-1,-1
+"9374","PPT2",NA,NA,-1,-1
+"9376","SLC22A8","Not detected","Enhanced",-1,-1
+"9377","COX5A","High","Supported",2,2
+"9380","GRHPR","Low","Approved",-1,0
+"9388","LIPG","Medium","Uncertain",1,1
+"9394","HS6ST1",NA,NA,-1,-1
+"9397","NMT2","Low","Approved",-1,0
+"93979","CPA5",NA,NA,-1,-1
+"94005","PIGS","Low","Approved",-1,0
+"94033","FTMT",NA,NA,-1,-1
+"9415","FADS2","Medium","Approved",1,1
+"9420","CYP7B1","Medium","Uncertain",1,1
+"9435","CHST2",NA,NA,-1,-1
+"9446","GSTO1","Not detected","Enhanced",-1,-1
+"9453","GGPS1","Not detected","Enhanced",-1,-1
+"9468","PCYT1B","Not detected","Uncertain",-1,-1
+"9469","CHST3","Not detected","Enhanced",-1,-1
+"948","CD36","High","Enhanced",2,2
+"9481","SLC25A27",NA,NA,-1,-1
+"9487","PIGL","Medium","Approved",1,1
+"9488","PIGB","Medium","Uncertain",1,1
+"9489","PGS1","Medium","Approved",1,1
+"949","SCARB1","Not detected","Enhanced",-1,-1
+"9497","SLC4A7","Not detected","Enhanced",-1,-1
+"9498","SLC4A8",NA,NA,-1,-1
+"95","ACY1","Not detected","Enhanced",-1,-1
+"9514","GAL3ST1","Low","Approved",-1,0
+"9517","SPTLC2",NA,NA,-1,-1
+"952","CD38","Not detected","Enhanced",-1,-1
+"9520","NPEPPS","Medium","Uncertain",1,1
+"9524","TECR","Medium","Supported",1,1
+"953","ENTPD1","Low","Enhanced",-1,0
+"9533","POLR1C",NA,NA,-1,-1
+"9536","PTGES","Not detected","Enhanced",-1,-1
+"954","ENTPD2","Medium","Approved",1,1
+"955","ENTPD6","Medium","Approved",1,1
+"9550","ATP6V1G1","Low","Supported",-1,0
+"9551","ATP5J2","Medium","Approved",1,1
+"956","ENTPD3",NA,NA,-1,-1
+"9562","MINPP1","Medium","Approved",1,1
+"9563","H6PD","High","Approved",2,2
+"957","ENTPD5","Not detected","Enhanced",-1,-1
+"9577","BRE","Medium","Approved",1,1
+"9583","ENTPD4","Not detected","Supported",-1,-1
+"9588","PRDX6","Medium","Supported",1,1
+"9601","PDIA4","Medium","Supported",1,1
+"9615","GDA","Not detected","Enhanced",-1,-1
+"9619","ABCG1","Low","Approved",-1,0
+"9653","HS2ST1","Not detected","Supported",-1,-1
+"9663","LPIN2","Low","Enhanced",-1,0
+"9677","PPIP5K1","Medium","Approved",1,1
+"97","ACYP1","Medium","Approved",1,1
+"9754","STARD8","Medium","Uncertain",1,1
+"978","CDA","Not detected","Enhanced",-1,-1
+"9789","SPCS2","Low","Approved",-1,0
+"9791","PTDSS1",NA,NA,-1,-1
+"98","ACYP2","Not detected","Uncertain",-1,-1
+"9807","IP6K1","Low","Approved",-1,0
+"9843","HEPH","Low","Approved",-1,0
+"9856","KIAA0319","Not detected","Enhanced",-1,-1
+"9890","LPPR4",NA,NA,-1,-1
+"9896","FIG4","Medium","Approved",1,1
+"9914","ATP2C2","Low","Approved",-1,0
+"9917","FAM20B","Medium","Approved",1,1
+"9942","XYLB",NA,NA,-1,-1
+"9945","GFPT2","Low","Uncertain",-1,0
+"9951","HS3ST4",NA,NA,-1,-1
+"9953","HS3ST3B1",NA,NA,-1,-1
+"9955","HS3ST3A1","Medium","Uncertain",1,1
+"9956","HS3ST2","Not detected","Approved",-1,-1
+"9957","HS3ST1","Not detected","Approved",-1,-1
+"9962","SLC23A2","Medium","Approved",1,1
+"9963","SLC23A1","Not detected","Enhanced",-1,-1
+"9990","SLC12A6","Not detected","Uncertain",-1,-1
