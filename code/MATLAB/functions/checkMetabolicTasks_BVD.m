@@ -365,14 +365,14 @@ for i= 1:length(taskStructure)
         currentTask = taskStructure(i).EQU;
         for p = 1:length(taskStructure(i).EQU)
             equation = currentTask{p,1};
-            UB = taskStructure(i).EQULB(p,1);
+            UB = taskStructure(i).EQUUB(p,1);
             LB = taskStructure(i).EQULB(p,1);
-            if UB == 0 
-                UB = 1000;
-            end
-            if LB == 0
-                LB = -1000;
-            end
+%             if UB == 0 
+%                 UB = 1000;
+%             end
+%             if LB == 0
+%                 LB = -1000;
+%             end
             % add reaction to the model
             [tModel, rxnIDexists] = addReaction(tModel, strcat('TEMPORARY_',taskStructure(i).id,'_',num2str(p)), 'reactionFormula', equation, 'lowerBound', LB, 'upperBound', UB);
             

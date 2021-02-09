@@ -120,6 +120,19 @@ all.data %>% group_by(Idiopathic) %>% dplyr::count()
 write.table(all.data, file = "C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/GSEdata/GSE5406_DEGs.csv", 
             col.names = TRUE, row.names = FALSE, sep = ",")
 
+# Determine how many DEGs map to the model
+genes_in_model <- openxlsx::read.xlsx("C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/data/20190823 -- genes present in heart model.xlsx", sheet = 1) %>% 
+  filter(gene_present == 1) %>% 
+  dplyr::select(gene)
+genes_in_model <- data.frame(sapply(genes_in_model, function(x) gsub("\'", "", x)))
+colnames(genes_in_model) <- c('GENE.NAME')
+genes_in_model$GENE.NAME <- (genes_in_model$GENE.NAME)
+model.genes.data <- genes_in_model %>% 
+  inner_join(all.data, by = c("GENE.NAME"))
+
+model.genes.data %>% group_by(Ischemic == 0) %>% dplyr::count()
+model.genes.data %>% group_by(Idiopathic == 0) %>% dplyr::count()
+
 ############################################ GSE57345 ##########################################################
 # Returns a list of expression sets
 gse_data <- getGEO("GSE57345", GSEMatrix = TRUE)
@@ -226,8 +239,24 @@ all.results <- all.results %>%
 all.data <- all.results
 colnames(all.data)[1] <- 'GENE.NAME'
 
-write.table(all.data, file = "data/GSE57345_DEGs.csv", 
+all.data %>% group_by(Ischemic) %>% dplyr::count()
+all.data %>% group_by(Idiopathic) %>% dplyr::count()
+
+write.table(all.data, file = "C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/GSEdata/GSE57345_DEGs.csv", 
             col.names = TRUE, row.names = FALSE, sep = ",")
+
+# Determine how many DEGs map to the model
+genes_in_model <- openxlsx::read.xlsx("C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/data/20190823 -- genes present in heart model.xlsx", sheet = 1) %>% 
+  filter(gene_present == 1) %>% 
+  dplyr::select(gene)
+genes_in_model <- data.frame(sapply(genes_in_model, function(x) gsub("\'", "", x)))
+colnames(genes_in_model) <- c('GENE.NAME')
+genes_in_model$GENE.NAME <- (genes_in_model$GENE.NAME)
+model.genes.data <- genes_in_model %>% 
+  inner_join(all.data, by = c("GENE.NAME"))
+
+model.genes.data %>% group_by(Ischemic == 0) %>% dplyr::count()
+model.genes.data %>% group_by(Idiopathic == 0) %>% dplyr::count()
 
 ############################################ GSE1869 ##########################################################
 # Returns a list of expression sets
@@ -321,8 +350,152 @@ all.results <- all.results %>%
   mutate(Ischemic = ifelse(Ischemic > 0, 1, ifelse(Ischemic < 0, -1, 0)), 
          Idiopathic = ifelse(Idiopathic > 0, 1, ifelse(Idiopathic < 0, -1, 0)))
 
-all.data %>% group_by(Ischemic) %>% dplyr::count()
-all.data %>% group_by(Idiopathic) %>% dplyr::count()
+all.results %>% group_by(Ischemic) %>% dplyr::count()
+all.results %>% group_by(Idiopathic) %>% dplyr::count()
 
-write.table(all.data, file = "C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/GSEdata/GSE1869_DEGs.csv", 
+write.table(all.results, file = "C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/GSEdata/GSE1869_DEGs.csv", 
             col.names = TRUE, row.names = FALSE, sep = ",")
+
+# Determine how many DEGs map to the model
+genes_in_model <- openxlsx::read.xlsx("C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/data/20190823 -- genes present in heart model.xlsx", sheet = 1) %>% 
+  filter(gene_present == 1) %>% 
+  dplyr::select(gene)
+genes_in_model <- data.frame(sapply(genes_in_model, function(x) gsub("\'", "", x)))
+colnames(genes_in_model) <- c('GENE.NAME')
+genes_in_model$GENE.NAME <- (genes_in_model$GENE.NAME)
+model.genes.data <- genes_in_model %>% 
+  inner_join(all.results, by = c("GENE.NAME"="ENTREZ_GENE_ID"))
+
+model.genes.data %>% group_by(Ischemic == 0) %>% dplyr::count()
+model.genes.data %>% group_by(Idiopathic == 0) %>% dplyr::count()
+
+#### Additional dataset included for validation ####
+#### GSE26887 ####
+# Returns a list of expression sets
+gse_data <- getGEO("GSE26887", GSEMatrix = TRUE)
+
+# Returns list of expression sets, only 1 entry
+gse_data <- gse_data[[1]]
+
+# Write raw probe data to file for GSEA
+data.to.save <- data.frame(NAME = row.names(exprs(gse_data)), DESCRIPTION = "na", exprs(gse_data))
+write.table(x = data.to.save, 
+            file = "C:/Users/bvd5nq/Documents/GSEA/GEOdata/GSE26887.txt",
+            row.names = FALSE, col.names = TRUE, sep = "\t")
+
+# Check to see what normalization method was
+gse_data@phenoData@data[["data_processing"]][1]
+
+# Boxplot of values to make sure things are normalized correctly
+boxplot((exprs(gse_data)))
+
+# Samples are separated by type of HF, fit only as control, ischemic, idiopathic
+disease_state <- data.frame(gse_data$title) %>% 
+  mutate(Control = grepl("control", gse_data.title), 
+         Failure = grepl("non diabetic", gse_data.title), 
+         Idiopathic = grepl("_diabetic",gse_data.title)) %>% 
+  mutate(Summary = ifelse(Control == TRUE, "Control", ifelse(Failure == TRUE, "Failure", "Diabetic")))
+
+design <- model.matrix(~0 + factor(disease_state$Summary))
+colnames(design) <- c("Control","Failure","Diabetic")
+contrast.matrix <- makeContrasts(Failure - Control, levels = design)
+
+# Create a cls file based on number of samples
+# total samples, total classes, 1
+# user visible names for classes, must be in the same order that data appears
+# sample labels
+fileConn <- file("C:/Users/bvd5nq/Documents/GSEA/GEOdata/GSE26887_phenotype.cls")
+writeLines(c("24 3 1",
+             "# Control Diabetic Failure",
+             paste(unlist(disease_state$Summary), collapse = " ")), 
+           fileConn)
+close(fileConn)
+
+
+# Previous research has indicated that filtering data to top 50% most variable genes increases power
+library(genefilter)
+gse_data_filter <- varFilter(gse_data)
+
+library(annotate)
+library(hugene10sttranscriptcluster.db)
+annodb <- "hugene10sttranscriptcluster.db"
+ID <- featureNames(gse_data_filter)
+Symbol <- as.character(lookUp(ID,annodb,"SYMBOL"))
+Name <- as.character(lookUp(ID,annodb,"GENENAME"))
+Entrez <- as.character(lookUp(ID,annodb, "ENTREZID"))
+
+# Can annotate approximatly 55% of the probe sets
+length(which(Name == "NA"))
+length(ID)
+
+gene.data <- data.frame(ID = as.numeric(ID), ENTREZ_GENE_ID <- Entrez)
+colnames(gene.data) <- c('ID','ENTREZ_GENE_ID')
+gene.data <- gene.data %>% 
+  filter(ENTREZ_GENE_ID != "NA")
+
+# Run limma analysis
+gse.data.process <- getEAWP(gse_data_filter)
+lmfit <- lmFit(exprs(gse_data_filter), design)
+# Run contrasts
+lmfit.cont <- contrasts.fit(lmfit, contrast.matrix)
+# Apply empirical Bayes
+lmfit.cont.ebayes <- eBayes(lmfit.cont)
+lmfit.cont.ebayes$genes <- gse.data.process$probes$ID
+
+# Collect logFCs for saving to file
+testResults <- topTable(lmfit.cont.ebayes, number = nrow(lmfit.cont.ebayes)) %>% 
+  filter(!is.na(ID))
+
+# Adjust for multiple tests, save logFCs
+# This data is still with transcripts not grouped to the gene level yet
+lmfit.results <- data.frame(ID = gse.data.process$probes$ID, decideTests(lmfit.cont.ebayes, adjust.method = "fdr", p.value = 0.1))
+colnames(lmfit.results) <- c('ID','Failing')
+lmfit.results <- left_join(lmfit.results, testResults, by = c("ID")) %>% 
+  dplyr::select('ID', 'Failing','logFC')
+colnames(lmfit.results) <- c('ID', 'Failing', 'logFC')
+
+# Original length
+all.results <- full_join(gene.data, lmfit.results)
+colnames(all.results) <- c("ID","ENTREZ_GENE_ID","Failing",'logFC')
+all.results <- all.results %>% 
+  filter(!(is.na(ENTREZ_GENE_ID)))
+
+# Group results by ENTREZ_GENE_ID - remaining is 8242 genes
+all.results <- all.results %>% 
+  group_by(ENTREZ_GENE_ID) %>% 
+  summarize(Failing = sum(Failing), 
+            logFC = ifelse(Failing > 0, max(logFC), ifelse(Failing < 0, min(logFC), 0))) %>% 
+  mutate(Failing = ifelse(Failing > 0, 1, ifelse(Failing < 0, -1, 0)))
+
+all.results %>% group_by(Failing == 0) %>% dplyr::count()
+
+# Filter out the genes that are in the human reconstruction
+library(openxlsx)
+
+# new iCardio model has 2173 genes
+genes_in_model <- openxlsx::read.xlsx("C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/data/20190823 -- genes present in heart model.xlsx", sheet = 1) %>% 
+  filter(gene_present == 1) %>% 
+  dplyr::select(gene)
+genes_in_model <- data.frame(sapply(genes_in_model, function(x) gsub("\'", "", x)))
+colnames(genes_in_model) <- c('GENE.NAME')
+genes_in_model$GENE.NAME <- (genes_in_model$GENE.NAME)
+model.genes.data <- genes_in_model %>% 
+  inner_join(all.results, by = c("GENE.NAME"="ENTREZ_GENE_ID"))
+
+model.genes.data %>% group_by(Failing == 0) %>% dplyr::count()
+
+all.data <- all.results
+colnames(all.data)[1] <- 'GENE.NAME'
+
+
+
+write.table(all.data, file = "C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/GSEdata/GSE26887_DEGs.csv", 
+            col.names = TRUE, row.names = FALSE, sep = ",")
+
+write.table(model.genes.data, file = "C:/Users/bvd5nq/Documents/R scripts/Cardiomyocyte Model/GSEdata/GSE26887_model_DEGs.csv", 
+            col.names = TRUE, row.names = FALSE, sep = ",")
+
+
+
+
+

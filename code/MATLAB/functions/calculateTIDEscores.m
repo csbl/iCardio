@@ -63,7 +63,11 @@ gene_expr(gene_expr == -1) = 0;
 
 % Link the gene to the model reactions
 [expressionRxns, genes_used] = selectGeneFromGPR(model, gene_id, gene_expr, parsedGPR, minSum);
-
+for rxn = 1:length(expressionRxns)
+    if expressionRxns(rxn) == -1
+        expressionRxns(rxn) = 0;
+    end
+end
 
 % Mark all genes_used that have a reaction score of 0 as 0
 for k = 1:length(genes_used)
@@ -88,6 +92,7 @@ end
 
 
 % Randomize data and re-calculate a distribution of task scores
+
 random_total = zeros(length(minRxnList),num_iterations);
 genes = data.gene;
 orig_data = data.value;
@@ -268,6 +273,7 @@ for i = 1:length(model.rxns)
             % Instead of taking the max, take the max of the absolute value
             if(max(curExpr) > 0 && min(curExpr) < 0)
                 [maximum location] = max(curExpr);
+                %[maximum location] = max(abs(curExpr));
                 expressionCol(i) = curExpr(location);
                 ID_max = location;
             else
