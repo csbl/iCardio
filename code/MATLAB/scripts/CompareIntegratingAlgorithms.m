@@ -5,10 +5,10 @@ clc
 
 % Load the original model and make the updates to the model
 initCobraToolbox(false)
-changeCobraSolver('gurobi6', 'all');
+changeCobraSolver('ibm_cplex', 'all');
 
 % Loading a COBRA file
-hsa_cobra_load = xls2model('data\ncomms14250-s10, iHsa COBRA.xlsx');
+hsa_cobra_load = ncomm_blais_xls2model('data/ncomms14250-s10, iHsa COBRA.xlsx');
 % Change objective function for ATP use
 hsa_cobra_load = changeObjective(hsa_cobra_load, 'RCR11017');
 
@@ -43,16 +43,16 @@ hsa_cobra_load.ub(ubx) = 1000;
 %% Check tasks with the updated models
 % Load tasks from original hepatocyte model
 % Convert from original format to COBRA format
-inputFile = ['data\ncomms14250-s5, metabolic tasks.xls'];
+inputFile = ['data/ncomms14250-s5, metabolic tasks.xls'];
 [FINAL] = generateCobraTaskList(inputFile, hsa_cobra_load);
-xlswrite('data\RATCONTasks_COBRA.xlsx', FINAL, 'TASKS')
-inputFile_RATCON = ['RATCONTasks_COBRA.xlsx'];
+xlswrite('data/RATCONTasks_COBRA.xlsx', FINAL, 'TASKS')
+inputFile_RATCON = ['data/RATCONTasks_COBRA.xlsx'];
 
 % Load cardiomyocyte tasks
-inputFile = ['data\CardiomyocyteTasks.xlsx'];
+inputFile = ['data/CardiomyocyteTasks.xlsx'];
 [FINAL] = generateCobraTaskList(inputFile, hsa_cobra_load);
-xlswrite('data\CardiomyocyteTasks_COBRA.xlsx', FINAL, 'TASKS')
-inputFile_cardio = ['data\CardiomyocyteTasks_COBRA.xlsx'];
+xlswrite('data/CardiomyocyteTasks_COBRA.xlsx', FINAL, 'TASKS')
+inputFile_cardio = ['data/CardiomyocyteTasks_COBRA.xlsx'];
 
 % Check that tasks from the original model are passing correctly 
 model = hsa_cobra_load;
@@ -64,7 +64,7 @@ hsa_cobra_load = rmfield(hsa_cobra_load, 'osenseStr');
 hsa_cobra_load = rmfield(hsa_cobra_load, 'csense');
 
 %% Load cardiomyocyte-specific HPA data
-heart_data = readtable('data\20190625 -- MATLAB_integrate_HPA.csv');
+heart_data = readtable('data/20190625 -- MATLAB_integrate_HPA.csv');
               
 % table contains conservative and liberal calls for proteins
 % conservative: high: 2, medium: 1, low/not detected/NA: -1
@@ -264,18 +264,18 @@ constraint = 1e-4;
 [tissueModel_CORDA, rescue, HCtoMC, HCtoNC, MCtoNC] = CORDA(hsa_cobra_load, {}, ES,PR,NP, 2, constraint);
 
 %% Save models
-% save('draft_heart_models.mat', tissueModel_CORDA, tissueModel_fastCore_conservative, tissueModel_fastCore_liberal, tissueModel_GIMME, tissueModel_iMAT, tissueModel_MBA_conservative, tissueModel_MBA_liberal)
+%save('data/draft_heart_models.mat', tissueModel_CORDA, tissueModel_fastCore_conservative, tissueModel_fastCore_liberal, tissueModel_GIMME, tissueModel_iMAT, tissueModel_MBA_conservative, tissueModel_MBA_liberal)
 
 %% Compare all the developed models based on task completion
 % Load previously run models
-load('draft_heart_models.mat')
+load('data/draft_heart_models.mat')
 
 % Load tasks from original hepatocyte model
 % Convert from original format to COBRA format
-inputFile = ['data\AllTasks_CardiomyocyteSpecific.xlsx'];
+inputFile = ['data/AllTasks_CardiomyocyteSpecific.xlsx'];
 [FINAL] = generateCobraTaskList(inputFile, hsa_cobra_load);
-xlswrite('data\AllTasks_CardiomyocyteSpecific_COBRA.xlsx', FINAL, 'TASKS')
-inputFile = ['data\AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
+xlswrite('data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx', FINAL, 'TASKS')
+inputFile = ['data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
 
 % Check tasks for individual models
 model = tissueModel_GIMME;

@@ -7,11 +7,11 @@ initCobraToolbox
 changeCobraSolver('ibm_cplex', 'all');
 
 % Load in the heart model
-load('HeartModel.mat')
+load('data/HeartModel.mat')
 
 % Generate a taskStructure for determining the min set of reactions
 % Convert from original format to COBRA format
-inputFile = ['AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
+inputFile = ['data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
 taskStructure=generateTaskStructure_BVD(inputFile);
 
 % calculate the reactions necessary for each task
@@ -63,7 +63,7 @@ num_iterations = 1000;
 %% Run TIDEs analysis for datasets presented in Figure 4 and 5
 % GSE5406
 % Load example data set
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE5406_DEGs.csv');
+humanHF = readtable('data/GSE5406_DEGs.csv');
 data.gene = humanHF.GENE_NAME;
 data.value = humanHF.Ischemic_logFC;
 
@@ -76,7 +76,7 @@ data.value = humanHF.Idiopathic_logFC;
 [GSE5406_Idiopathic, GSE5406_Idiopathic_random] = calculateTIDEscores(model, minRxnList, data, num_iterations);
 
 %% GSE57345
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE57345_DEGs.csv');
+humanHF = readtable('data/GSE57345_DEGs.csv');
 data.gene = humanHF.GENE_NAME;
 data.value = humanHF.Ischemic_logFC;
 
@@ -88,7 +88,7 @@ data.value = humanHF.Idiopathic_logFC;
 [GSE57345_Idiopathic, GSE57345_Idiopathic_random] = calculateTIDEscores(model, minRxnList, data, num_iterations);
 
 %% GSE1869
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE1869_DEGs.csv');
+humanHF = readtable('data/GSE1869_DEGs.csv');
 data.gene = humanHF.ENTREZ_GENE_ID;
 data.value = humanHF.Ischemic_logFC;
 
@@ -111,7 +111,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE5406_allGenes_Ischemic.xlsx', data_save)
+xlswrite('data/GSE5406_allGenes_Ischemic.xlsx', data_save)
 
 % GSE5406_Idiopathic
 data = GSE5406_Idiopathic;
@@ -123,7 +123,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE5406_allGenes_Idiopathic.xlsx', data_save)
+xlswrite('data/GSE5406_allGenes_Idiopathic.xlsx', data_save)
 
 %% GSE57345
 % GSE57345_Idiopathic
@@ -136,7 +136,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE57345_allGenes_Ischemic.xlsx', data_save)
+xlswrite('data/GSE57345_allGenes_Ischemic.xlsx', data_save)
 
 % GSE57345_Idiopathic
 data = GSE57345_Idiopathic;
@@ -148,10 +148,9 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE57345_allGenes_Idiopathic.xlsx', data_save)
+xlswrite('data/GSE57345_allGenes_Idiopathic.xlsx', data_save)
 
 %% GSE1869
-
 % GSE1869
 data = GSE1869_Dilated;
 % Save individual variable names to xlsx files in R/data folder
@@ -162,7 +161,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE1869_allGenes_Dilated.xlsx', data_save)
+xlswrite('data/GSE1869_allGenes_Dilated.xlsx', data_save)
 
 % GSE1869_Idiopathic
 data = GSE1869_Ischemic;
@@ -174,11 +173,11 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE1869_allGenes_Ischemic.xlsx', data_save)
+xlswrite('data/GSE1869_allGenes_Ischemic.xlsx', data_save)
 
 %% Save some of the random data sets
 data = GSE5406_Ischemic_random; 
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE5406_Ischemic_random.xlsx', data);
+xlswrite('data/GSE5406_Ischemic_random.xlsx', data);
 
 %% Save the variables to a MATLAB file
-save('TIDEs_original.mat', 'GSE5406_Ischemic', 'GSE5406_Idiopathic', 'GSE57345_Idiopathic', 'GSE57345_Ischemic', 'GSE1869_Dilated', 'GSE1869_Ischemic')
+save('data/TIDEs_original.mat', 'GSE5406_Ischemic', 'GSE5406_Idiopathic', 'GSE57345_Idiopathic', 'GSE57345_Ischemic', 'GSE1869_Dilated', 'GSE1869_Ischemic')

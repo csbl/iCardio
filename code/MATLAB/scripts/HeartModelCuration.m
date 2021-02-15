@@ -8,10 +8,10 @@ close all
 clc
 
 initCobraToolbox
-changeCobraSolver('gurobi6', 'all');
+changeCobraSolver('ibm_cplex', 'all');
 
 % Load in the draft models
-load('draft_heart_models.mat')
+load('data/draft_heart_models.mat')
 
 % Assign the draft model as the CORDA model
 heart_model_draft = tissueModel_CORDA;
@@ -19,10 +19,10 @@ heart_model_draft = tissueModel_CORDA;
 %% Load draft model and test with task list
 % Load tasks from original hepatocyte model
 % Convert from original format to COBRA format
-inputFile = ['AllTasks_CardiomyocyteSpecific.xlsx'];
+inputFile = ['data/AllTasks_CardiomyocyteSpecific.xlsx'];
 [FINAL] = generateCobraTaskList(inputFile, hsa_cobra_load);
-xlswrite('AllTasks_CardiomyocyteSpecific_COBRA.xlsx', FINAL, 'TASKS')
-inputFile = ['AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
+xlswrite('data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx', FINAL, 'TASKS')
+inputFile = ['data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
 
 draft_tasks = checkMetabolicTasks_BVD(heart_model_draft,inputFile);
 
@@ -200,10 +200,10 @@ heart_model_curation = removeRxns(heart_model_curation, remove);
 
 %% Re-check metabolic tasks after updates
 % Convert from original format to COBRA format
-inputFile = ['AllTasks_CardiomyocyteSpecific.xlsx'];
+inputFile = ['data/AllTasks_CardiomyocyteSpecific.xlsx'];
 [FINAL] = generateCobraTaskList(inputFile, hsa_cobra_load);
-xlswrite('AllTasks_CardiomyocyteSpecific_COBRA.xlsx', FINAL, 'TASKS')
-inputFile = ['AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
+xlswrite('data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx', FINAL, 'TASKS')
+inputFile = ['data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
 
 curated_tasks = checkMetabolicTasks_BVD(heart_model_curation,inputFile);
 
@@ -212,67 +212,11 @@ curated_tasks = checkMetabolicTasks_BVD(heart_model_curation,inputFile);
 heart_model_curation = changeObjective(heart_model_curation, 'RCR90143');
 outmodel = writeCbModel(heart_model_curation, 'format','sbml');
 
-save('HeartModel.mat', 'heart_model_curation')
+save('data/HeartModel.mat', 'heart_model_curation')
 
-%% Remove genes from the model that are not associated with any reactions
-heart_data = readtable('data/20190625 -- MATLAB_integrate_HPA.csv');
-
-express_data.gene = heart_data.GENE_NAME;
-express_data.value = heart_data.conservative;
-
-[expressionRxns parsedGPR] = mapExpressionToReactions(heart_model_curation, express_data);
-
-% Collapse parsedGPR into list of genes still covered in the model
-all_genes = [];
-for k = 1:length(parsedGPR)
-    GPR = parsedGPR{k};
-    for j = 1:length(GPR)
-        if length(GPR{j}) > 1
-            for p = 1:length(GPR{j})
-                all_genes(end+1,1) = str2num(GPR{j}{p,1});
-            end
-        elseif sum(strcmp(GPR, '')) == 1
-        else
-            all_genes(end+1,1) = str2num(GPR{j}{1,1});
-        end
-    end
-end
-
-% Remove duplicates of genes listed
-k = 1;
-while k < length(all_genes)
-    gene = all_genes(k);
-    to_remove = gene == all_genes;
-    to_remove(k) = 0;
-    all_genes(to_remove) = [];
-    k = k+1;
-end
-
-%% Identifying the percent of model reactions with HPA data
-% Load cardiomyocyte-specific HPA data
-heart_data = readtable('data/20200504 -- MATLAB_integrate_HPA.csv');
-              
-express_data_heart.gene = heart_data.GENE_NAME;
-express_data_heart.value = heart_data.final_mapping;
-
-% Map to reactions in the model
-[expressionRxns parsedGPR] = mapExpressionToReactions(heart_model_curation, express_data_heart);
-
-sum(expressionRxns == 3) %884 reactions, high
-sum(expressionRxns == 2) %1617 reactions, medium
-sum(expressionRxns == 1) %256 reactions, low
-sum(expressionRxns == 0) %647 reactions, not detected
-sum(expressionRxns == -1) %796 reactions
-
-% Determine the number of reactions that have no GPR rules
-% Remove reactions from the subsystem list that don't have GPR rules
-for k = 1:length(heart_model_curation.rxns)
-    noGPR(k) = isempty(heart_model_curation.grRules{k});
-end
-sum(noGPR) %628 reactions
 %% Identify reactions carrying flux for each of the metabolic tasks
 % Generate a taskStructure for determining the min set of reactions
-inputFile = ['AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
+inputFile = ['data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
 taskStructure=generateTaskStructure_BVD(inputFile);
 
 % calculate the reactions necessary for each task
@@ -281,8 +225,8 @@ minRxnList = generateMinRxnList(heart_model_curation, taskStructure, removeNoGPR
 
 % Step through the minRxnList to identify reactions covered under different
 % tasks
-cardio = [1:5 223:309];
-iHsa = [6:222];
+cardio = [1:4 221:308];
+iHsa = [5:222];
 
 cardio_rxns = [];
 for k = 1:length(cardio)
@@ -342,7 +286,7 @@ clc
 % Load in exchange reactions from iHsa model
 % Since exchange reactions were changed to [-1000, 0] for building context
 % specific models, need to change to [0,0] to make ATP predictions
-exchange_model = xls2model('ncomms14250-s10, iHsa COBRA.xlsx');
+exchange_model = ncomm_blais_xls2model('data/ncomms14250-s10, iHsa COBRA.xlsx');
 lbx = find(exchange_model.lb ~= -1000 & exchange_model.lb ~= 0);
 lbx_rxns = findRxnIDs(heart_model_curation, exchange_model.rxns(lbx));
 lbx_rxns(lbx_rxns == 0) = [];

@@ -9,11 +9,11 @@ initCobraToolbox
 changeCobraSolver('ibm_cplex', 'all');
 
 % Load in the heart model
-load('HeartModel.mat')
+load('data/HeartModel.mat')
 
 % Generate a taskStructure for determining the min set of reactions
 % Convert from original format to COBRA format
-inputFile = ['AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
+inputFile = ['data/AllTasks_CardiomyocyteSpecific_COBRA.xlsx'];
 taskStructure=generateTaskStructure_BVD(inputFile);
 
 % calculate the reactions necessary for each task
@@ -63,13 +63,13 @@ parpool(4);
 num_iterations = 1000;
 
 %% Debugging reading in table problems
-opts = detectImportOptions('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE5406_DEGs.csv');
+opts = detectImportOptions('data/GSE5406_DEGs.csv');
 opts.Delimiter = {','};
 opts.VariableNames = {'EntrezID','failure','failure_logFC'};
 
 %% GSE26887
 % Load example data set
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE26887_DEGs.csv', opts);
+humanHF = readtable('data/GSE26887_DEGs.csv', opts);
 data.gene = humanHF.EntrezID;
 data.value = humanHF.failure_logFC;
 
@@ -82,7 +82,7 @@ model = heart_model_curation;
 
 %% GSE71613
 % Load example data set
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE71613_failure_DEGs.csv', opts);
+humanHF = readtable('data/GSE71613_failure_DEGs.csv', opts);
 data.gene = humanHF.EntrezID;
 data.value = humanHF.failure_logFC;
 
@@ -95,7 +95,7 @@ model = heart_model_curation;
  
 %% GSE141910 - failure only
 % Also read in only the failure data
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE141910_failure_DEGs.csv', opts);
+humanHF = readtable('data/GSE141910_failure_DEGs.csv', opts);
 data.gene = humanHF.EntrezID;
 data.value = humanHF.failure_logFC;
 
@@ -108,7 +108,7 @@ model = heart_model_curation;
 
 %% GSE133054 - failure only
 % Change options to reflect failure and hypertrophic data
-humanHF = readtable('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\GSEdata\GSE133054_failure_DEGs.csv', opts);
+humanHF = readtable('data/GSE133054_failure_DEGs.csv', opts);
 data.gene = humanHF.EntrezID;
 data.value = humanHF.failure_logFC;
 
@@ -130,7 +130,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE26887_allGenes_Failure.xlsx', data_save)
+xlswrite('data/GSE26887_allGenes_Failure.xlsx', data_save)
 
 % GSE71613_failure
 data = GSE71613_failure;
@@ -142,7 +142,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE71613_allGenes_Failure.xlsx', data_save)
+xlswrite('data/GSE71613_allGenes_Failure.xlsx', data_save)
 
 % GSE141910_failure
 data = GSE141910_failure;
@@ -154,7 +154,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE141910_allGenes_Failure.xlsx', data_save)
+xlswrite('data/GSE141910_allGenes_Failure.xlsx', data_save)
 
 % GSE133054_failure
 data = GSE133054_failure;
@@ -166,7 +166,7 @@ for k = 1:length(data)
     data_save{k,4} = data(k).significance;
     data_save{k,3} = data(k).taskScore;
 end
-xlswrite('C:\Users\bvd5nq\Documents\R scripts\Cardiomyocyte Model\data\TIDEs\GSE133054_allGenes_Failure.xlsx', data_save)
+xlswrite('data/GSE133054_allGenes_Failure.xlsx', data_save)
 
 %% Save relevant variables into a file
-save('TIDEs_additional.mat','GSE26887_failure','GSE71613_failure','GSE141910_failure','GSE133054_failure')
+save('data/TIDEs_additional.mat','GSE26887_failure','GSE71613_failure','GSE141910_failure','GSE133054_failure')
